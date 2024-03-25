@@ -1,0 +1,15 @@
+gpt4all
+
+huggingface-hub
+sentence-transformers
+
+Flask==2.0.1
+Werkzeug==2.2.2
+flask-cors
+
+langchain==0.0.352
+chromadb==0.3.29
+tiktoken
+unstructured
+unstructured[local-pdf]
+unstructured[local-inference]
