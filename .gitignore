@@ -1,3 +1,4 @@
 # data folders
 data/raw_transcripts
 data/cleaned_transcripts
+.env
