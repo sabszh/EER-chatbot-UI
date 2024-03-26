@@ -1,4 +1,5 @@
 # data folders
 data/raw_transcripts
-data/cleaned_transcripts
-RAGGPT4ALL/.venv
+data/EER-site-pages-pdf
+streamlit_app/.venv
+streamlit_app/.env
