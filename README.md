@@ -9,6 +9,9 @@ To set up the environment for the EER Chatbot, follow these steps:
 
 1. Run `bash setup_env.sh` to install the necessary dependencies listed in _requirements.txt_.
 
+## Dependecies
+Make sure to add data in the data folder.
+
 ## Code Overview
 
 ### `app.py`
@@ -18,3 +21,32 @@ This module provides the user interface for interacting with the EER Chatbot. It
 ### `main.py`
 
 This module contains the core functionality of the EER Chatbot. It loads transcripts from meetings, processes text data, sets up retrievers and language models, and defines the logic for generating responses to user queries.
+
+## Running the Streamlit App
+
+To run the Streamlit application:
+   ```
+   streamlit run src/app.py
+   ```
+
+## Repo structure
+
+```plaintext
+Project Root
+│
+├── .devcontainer
+│   └── devcontainer.json
+│
+├── data
+│   └── .folders
+│
+├── src
+│   ├── app.py
+│   ├── main.py
+│   └── reformatting_data.py
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── setup_env.sh
+```

@@ -4,3 +4,4 @@ data/reformatted_transcripts
 data/EER-site-pages-pdf
 src/.venv
 src/.env
+src/__pycache__
