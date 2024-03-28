@@ -1,5 +1,6 @@
 # data folders
 data/raw_transcripts
+data/reformatted_transcripts
 data/EER-site-pages-pdf
-streamlit_app/.venv
-streamlit_app/.env
+src/.venv
+src/.env
