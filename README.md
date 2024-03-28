@@ -51,5 +51,3 @@ Project Root
 ├── requirements.txt
 └── setup_env.sh
 ```
-=======
->>>>>>> e1e8d473b101ce736a52ca7682fb22d6effd0e25
