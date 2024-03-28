@@ -1,6 +1,6 @@
-# EER (Experiencing, Experimenting, Reflection) Chatbot
+# EER (Experiencing, Experimenting, Reflecting) Chatbot
 ## Project Description
-This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the EER project.
+This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the (EER)[https://www.eer.info/] project.
 
 
 ## Setup
