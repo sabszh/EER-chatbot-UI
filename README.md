@@ -35,6 +35,8 @@ To run the Streamlit application:
 ```plaintext
 Project Root
 │
+├── .venv
+├── .env
 ├── .devcontainer
 │   └── devcontainer.json
 │

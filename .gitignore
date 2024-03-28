@@ -1,7 +1,6 @@
-# data folders
 data/raw_transcripts
 data/reformatted_transcripts
 data/EER-site-pages-pdf
-src/.venv
-src/.env
+.venv
+.env
 src/__pycache__

@@ -8,19 +8,20 @@ import pinecone
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
+
 class ChatBot():
-    load_dotenv()
-    raw_transcripts_folder = '../data/raw_transcripts/'
-    pdf_folder = '../data/EER-site-pages-pdf/'
+    transcripts_folder = 'data/reformatted_transcripts/'
+    pdf_folder = 'data/EER-site-pages-pdf/'
     
-    txt_files = [file for file in os.listdir(raw_transcripts_folder) if file.endswith('.txt')]
+    txt_files = [file for file in os.listdir(transcripts_folder) if file.endswith('.txt')]
     pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
 
     documents = []
 
     # Load text documents from .txt files
     for txt_file in txt_files:
-        loader = TextLoader(os.path.join(raw_transcripts_folder, txt_file))
+        loader = TextLoader(os.path.join(transcripts_folder, txt_file))
         documents.extend(loader.load())
         
     # Load text documents from .pdf files
@@ -33,15 +34,12 @@ class ChatBot():
 
     embeddings = HuggingFaceEmbeddings()
 
-    pinecone.init(
-        api_key= os.getenv('PINECONE_API_KEY'),
-        environment='gcp-starter'
-    )
+    pinecone_instance = Pinecone(api_key=os.getenv('PINECONE_API_KEY'), environment='gcp-starter')
 
     index_name = "langchain-demo"
 
-    if index_name not in pinecone.list_indexes():
-        pinecone.create_index(name=index_name, metric="cosine", dimension=768)
+    if index_name not in pinecone_instance.list_indexes():
+        pinecone_instance.create_index(name=index_name, dimension=768, metric="cosine")
         docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
     else:
         docsearch = Pinecone.from_existing_index(index_name, embeddings)
