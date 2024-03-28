@@ -1,6 +1,6 @@
-# EER (Experiencing, Experimenting, Reflection) Chatbot
+# EER (Experiencing, Experimenting, Reflecting) Chatbot
 ## Project Description
-This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the EER project.
+This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the [EER](https://www.eer.info/) project.
 
 
 ## Setup
@@ -21,6 +21,7 @@ This module provides the user interface for interacting with the EER Chatbot. It
 ### `main.py`
 
 This module contains the core functionality of the EER Chatbot. It loads transcripts from meetings, processes text data, sets up retrievers and language models, and defines the logic for generating responses to user queries.
+<<<<<<< HEAD
 
 ## Running the Streamlit App
 
@@ -50,3 +51,5 @@ Project Root
 ├── requirements.txt
 └── setup_env.sh
 ```
+=======
+>>>>>>> e1e8d473b101ce736a52ca7682fb22d6effd0e25
