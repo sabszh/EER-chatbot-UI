@@ -40,11 +40,7 @@ class ChatBot():
     environment = "gcp-starter"
     spec = PodSpec(environment=environment)
     
-    if index_name not in pinecone_instance.list_indexes():
-        pinecone_instance.create_index(name=index_name, dimension=768, metric="cosine", spec=spec)
-        docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
-    else:
-        docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
+    docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 
 
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
