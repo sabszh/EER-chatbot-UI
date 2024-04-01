@@ -1,11 +1,11 @@
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Pinecone
+from langchain_community.vectorstores.pinecone import Pinecone
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
-
-import pinecone
 from dotenv import load_dotenv
+from pinecone import Pinecone as pc
+from pinecone import PodSpec
 import os
 
 load_dotenv()
@@ -29,22 +29,26 @@ class ChatBot():
         loader = PyPDFLoader(os.path.join(pdf_folder, pdf_file))
         documents.extend(loader.load())
 
-    text_splitter = CharacterTextSplitter(chunk_size=5000, chunk_overlap=4)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function = len)
     docs = text_splitter.split_documents(documents)
 
     embeddings = HuggingFaceEmbeddings()
 
-    pinecone_instance = Pinecone(api_key=os.getenv('PINECONE_API_KEY'), environment='gcp-starter')
+    pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings = embeddings)
 
-    index_name = "langchain-demo"
-
+    index_name = "eerbot"
+    environment = "gcp-starter"
+    spec = PodSpec(environment=environment)
+    
     if index_name not in pinecone_instance.list_indexes():
-        pinecone_instance.create_index(name=index_name, dimension=768, metric="cosine")
+        pinecone_instance.create_index(name=index_name, dimension=768, metric="cosine", spec=spec)
         docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
     else:
-        docsearch = Pinecone.from_existing_index(index_name, embeddings)
+        docsearch = pc.from_existing_index(index_name, embeddings)
+
 
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    
     llm = HuggingFaceHub(
         repo_id=repo_id,
         temperature=0.8,
