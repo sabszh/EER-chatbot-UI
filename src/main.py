@@ -42,7 +42,6 @@ class ChatBot():
     
     docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 
-
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
     
     llm = HuggingFaceHub(
