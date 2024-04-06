@@ -1,6 +1,13 @@
-# data folders
 data/raw_transcripts
+<<<<<<< HEAD
 data/cleaned_transcripts
 data/pdf_transcripts
 data/reformatted_transcripts
 streamlit/secrets.toml
+=======
+data/reformatted_transcripts
+data/EER-site-pages-pdf
+.venv
+src/.env
+src/__pycache__
+>>>>>>> refs/remotes/origin/main
