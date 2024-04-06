@@ -1,11 +1,10 @@
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores.pinecone import Pinecone
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
 from dotenv import load_dotenv
-from pinecone import Pinecone as pc
-from pinecone import PodSpec
+import weaviate
+from langchain.vectorstores import Weaviate
 import os
 
 load_dotenv()
@@ -34,13 +33,7 @@ class ChatBot():
 
     embeddings = HuggingFaceEmbeddings()
 
-    pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings = embeddings)
-
-    index_name = "eerbot"
-    environment = "gcp-starter"
-    spec = PodSpec(environment=environment)
     
-    docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
 
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
     
