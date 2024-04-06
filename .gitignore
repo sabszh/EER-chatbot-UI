@@ -1,4 +1,6 @@
 # data folders
 data/raw_transcripts
 data/cleaned_transcripts
-RAGGPT4ALL/.venv
+data/pdf_transcripts
+data/reformatted_transcripts
+streamlit/secrets.toml
