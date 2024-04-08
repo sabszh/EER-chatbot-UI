@@ -11,8 +11,8 @@ import os
 load_dotenv()
 
 def datachunk():
-    transcripts_folder = 'data/reformatted_transcripts copy/'
-    pdf_folder = 'data/EER-site-pages-pdf copy/'
+    transcripts_folder = 'data/reformatted_transcripts/'
+    pdf_folder = 'data/EER-site-pages-pdf/'
 
     print("Loading files...")
 
