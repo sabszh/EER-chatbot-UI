@@ -1,18 +1,21 @@
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores.pinecone import Pinecone
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
 from dotenv import load_dotenv
-import weaviate
-from langchain.vectorstores import Weaviate
+from pinecone import Pinecone as pc
+from pinecone import PodSpec
 import os
 
 load_dotenv()
 
 class ChatBot():
-    transcripts_folder = 'data/reformatted_transcripts/'
-    pdf_folder = 'data/EER-site-pages-pdf/'
-    
+    transcripts_folder = 'data/reformatted_transcripts copy/'
+    pdf_folder = 'data/EER-site-pages-pdf copy/'
+
+    print("Loading files...")
+
     txt_files = [file for file in os.listdir(transcripts_folder) if file.endswith('.txt')]
     pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
 
@@ -22,21 +25,46 @@ class ChatBot():
     for txt_file in txt_files:
         loader = TextLoader(os.path.join(transcripts_folder, txt_file))
         documents.extend(loader.load())
-        
+
+    print("Text files loaded...")
+
     # Load text documents from .pdf files
     for pdf_file in pdf_files:
         loader = PyPDFLoader(os.path.join(pdf_folder, pdf_file))
         documents.extend(loader.load())
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function = len)
+    print("PDF files loaded...")
+
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function=len)
     docs = text_splitter.split_documents(documents)
+
+    print("Text documents split...")
 
     embeddings = HuggingFaceEmbeddings()
 
+    print("Embeddings initialized...")
+
+    pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=embeddings)
+
+    print("Pinecone instance created...")
+
+    index_name = "eerbot"
+    environment = "gcp-starter"
+    spec = PodSpec(environment=environment)
     
+    if index_name not in pinecone_instance.list_indexes().names():
+        print("Index does not exist, creating...")
+        pinecone_instance.create_index(name=index_name, metric="cosine", dimension=768, spec=spec)
+        print("Index created...")
+        print("Loading documents into Pinecone index...")
+        docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
+        print("Created new Pinecone index and loaded documents")
+    else:
+        docsearch = Pinecone.from_existing_index(index_name, embeddings)
+        print("Using existing Pinecone index")
 
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
-    
+
     llm = HuggingFaceHub(
         repo_id=repo_id,
         temperature=0.8,
@@ -45,7 +73,9 @@ class ChatBot():
         huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
     )
 
-    from langchain.prompts import PromptTemplate 
+    print("HuggingFace Hub initialized...")
+
+    from langchain.prompts import PromptTemplate
 
     template = """
     You are a creative expert on the Experimenting Experiencing Reflecting (EER) Project, a research initiative exploring the intersections between art and science.
@@ -64,12 +94,16 @@ class ChatBot():
 
     prompt = PromptTemplate(template=template, input_variables=["context", "question"])
 
+    print("Prompt template created...")
+
     from langchain.schema.runnable import RunnablePassthrough
     from langchain.schema.output_parser import StrOutputParser
 
     rag_chain = (
-        {"context": docsearch.as_retriever(),  "question": RunnablePassthrough()} 
-        | prompt 
-        | llm
-        | StrOutputParser() 
+            {"context": docsearch.as_retriever(), "question": RunnablePassthrough()}
+            | prompt
+            | llm
+            | StrOutputParser()
     )
+
+    print("Chain assembled...")
