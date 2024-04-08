@@ -8,52 +8,25 @@ from pinecone import Pinecone as pc
 from pinecone import PodSpec
 import os
 
+from data_chunking import datachunk
+
 load_dotenv()
 
 class ChatBot():
-    transcripts_folder = 'data/reformatted_transcripts copy/'
-    pdf_folder = 'data/EER-site-pages-pdf copy/'
-
-    print("Loading files...")
-
-    txt_files = [file for file in os.listdir(transcripts_folder) if file.endswith('.txt')]
-    pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
-
-    documents = []
-
-    # Load text documents from .txt files
-    for txt_file in txt_files:
-        loader = TextLoader(os.path.join(transcripts_folder, txt_file))
-        documents.extend(loader.load())
-
-    print("Text files loaded...")
-
-    # Load text documents from .pdf files
-    for pdf_file in pdf_files:
-        loader = PyPDFLoader(os.path.join(pdf_folder, pdf_file))
-        documents.extend(loader.load())
-
-    print("PDF files loaded...")
-
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function=len)
-    docs = text_splitter.split_documents(documents)
-
-    print("Text documents split...")
-
+    
     embeddings = HuggingFaceEmbeddings()
-
     print("Embeddings initialized...")
-
+    
     pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=embeddings)
-
-    print("Pinecone instance created...")
-
+    
     index_name = "eerbot"
     environment = "gcp-starter"
     spec = PodSpec(environment=environment)
     
     if index_name not in pinecone_instance.list_indexes().names():
         print("Index does not exist, creating...")
+        docs = datachunk()
+        print("Data chunked...")
         pinecone_instance.create_index(name=index_name, metric="cosine", dimension=768, spec=spec)
         print("Index created...")
         print("Loading documents into Pinecone index...")
@@ -62,7 +35,7 @@ class ChatBot():
     else:
         docsearch = Pinecone.from_existing_index(index_name, embeddings)
         print("Using existing Pinecone index")
-
+    
     repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 
     llm = HuggingFaceHub(
@@ -83,7 +56,6 @@ class ChatBot():
     The transcripts from the meetings may contain errors, and you should retrieve the most likely information from the context.
     Assume all questions are related to the EER Project.
     When questions refer to "we," assume it is from a member of the EER group.
-    Only use information from the provided document excerpts to respond, you are allowed to have a bit of creative freedom but keep it within the relevant domains.
     If uncertain, indicate so. Keep your answers concise.
 
     Context: {context}
