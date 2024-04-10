@@ -10,7 +10,7 @@ repositories = {
 st.set_page_config(page_title="EER Chatbot")
 with st.sidebar:
     st.title('EER Chatbot')
-    
+    st.write("Be aware, if you make any changes here that the chatbot will reload and your chat will be gone.")
     selected_repo = st.selectbox("Select the Model Repository", list(repositories.keys()))
 
     temperature = st.slider("Select the Temperature (0-1)", min_value=0.1, max_value=1.0, value=0.8, step=0.01)
@@ -23,7 +23,7 @@ with st.sidebar:
     All questions should pertain to the EER Project unless specified otherwise.
     In cases where questions mention "we," it is assumed to be referencing a member of the EER group.
     As the user engaging with you lacks knowledge of the provided context, ensure to provide relevant details for understanding the responses.
-    If uncertain about any details, kindly indicate so in your responses and maintain brevity in your answers.""", height=300)
+    If uncertain about any details, kindly indicate so in your responses and maintain brevity in your answers.""", height=250)
 
 print("Set page config and sidebar.")
 
