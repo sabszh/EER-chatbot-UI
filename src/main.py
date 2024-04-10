@@ -34,19 +34,9 @@ class ChatBot():
         docsearch = Pinecone.from_existing_index(index_name, embeddings)
         print("Using existing Pinecone index")
     
-    repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
-
-    llm = HuggingFaceHub(
-        repo_id=repo_id,
-        temperature=0.8,
-        top_p=0.8,
-        top_k=50,
-        huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
-    )
+    llm = None  # Define llm, it will be initialized in __init__
 
     print("HuggingFace Hub initialized...")
-
-    from langchain.prompts import PromptTemplate
 
     default_template = """
     You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science.
@@ -68,12 +58,25 @@ class ChatBot():
 
     print("Prompt template created...")
 
-    def __init__(self, custom_template=None):
+    def __init__(self, custom_template=None, repo_id=None, temperature=0.8):
         if custom_template:
             self.template = custom_template
         else:
             self.template = self.default_template
-    
+        
+        self.temperature = temperature
+        self.repo_id = repo_id
+        
+        # Initialize llm with repo_id
+        self.llm = HuggingFaceHub(
+            repo_id=self.repo_id,
+            temperature=temperature,
+            top_p=0.8,
+            top_k=50,
+            huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
+        )
+
+        # Initialize the chain
         self.rag_chain = (
             {"context": self.docsearch.as_retriever(), "question": RunnablePassthrough()}
             | PromptTemplate(template=self.template+self.template_end, input_variables=["context", "question"])
@@ -81,4 +84,4 @@ class ChatBot():
             | StrOutputParser()
         )
 
-    print("Chain assembled...")
+        print("Chain assembled...")
