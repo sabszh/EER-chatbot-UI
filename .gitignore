@@ -5,3 +5,5 @@ data/EER-site-pages-pdf copy
 data/reformatted_transcripts
 .env
 .venv
+src/test.ipynb
+src/__pycache__
