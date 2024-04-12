@@ -13,7 +13,7 @@ with st.sidebar:
     st.write("Be aware, if you make any changes here that the chatbot will reload and your chat will be gone.")
     selected_repo = st.selectbox("Select the Model Repository", list(repositories.keys()))
 
-    temperature = st.slider("Select the Temperature (0-1)", min_value=0.1, max_value=1.0, value=0.8, step=0.01)
+    temperature = st.slider("Select the Temperature (0-2)", min_value=0.1, max_value=2.0, value=1.0, step=0.01)
     
     custom_prompt = st.text_area('Edit Preprompt',
     """You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science.
