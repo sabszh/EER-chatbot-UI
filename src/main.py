@@ -26,7 +26,7 @@ class ChatBot():
     spec = PodSpec(environment=environment)
     
     if index_name not in pinecone_instance.list_indexes().names():
-        docs = datachunk()
+        docs = datachunk(transcripts_folder = 'data/reformatted_transcripts/', pdf_folder = 'data/EER-site-pages-pdf/')
         pinecone_instance.create_index(name=index_name, metric="cosine", dimension=768, spec=spec)
         docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
         print("Created new Pinecone index and loaded documents")

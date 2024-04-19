@@ -15,7 +15,7 @@ with st.sidebar:
 
     temperature = st.slider("Select the Temperature (0-2)", min_value=0.1, max_value=2.0, value=1.0, step=0.01)
     
-    custom_prompt = st.text_area('Edit Preprompt',
+    custom_prompt = st.text_area('Edit System Prompt',
     """You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science.
     You have access to a vast collection of documents, including research papers, meeting transcripts, and other relevant materials.
     The dialogue from the meetings may contain errors, prompting you to deduce the most probable information from the surrounding context.

@@ -6,12 +6,7 @@ import os
 
 load_dotenv()
 
-def datachunk():
-    transcripts_folder = 'data/reformatted_transcripts/'
-    pdf_folder = 'data/EER-site-pages-pdf/'
-
-    print("Loading files...")
-
+def datachunk(transcripts_folder,pdf_folder):
     txt_files = [file for file in os.listdir(transcripts_folder) if file.endswith('.txt')]
     pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
 
