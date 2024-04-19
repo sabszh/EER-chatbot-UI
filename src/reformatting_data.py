@@ -47,6 +47,6 @@ for filename in os.listdir(input_folder):
         reformatted_lines = process_file(filename)
         reformatted_lines.insert(0, header)
 
-        output_filename = os.path.splitext(filename)[0] + "_rf.txt"
+        output_filename = os.path.splitext(filename)[0] + "_rf.csv"
         with open(os.path.join(output_folder, output_filename), 'w') as output_file:
             output_file.write("\n".join(reformatted_lines))
