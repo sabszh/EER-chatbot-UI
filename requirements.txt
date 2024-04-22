@@ -1,7 +1,7 @@
-langchain==0.1.13
-pinecone-client==3.2.1
-python-dotenv==1.0.1
-streamlit==1.32.2
-sentence-transformers==2.6.1
-langchain-community==0.0.29
-pypdf==4.1.0
+langchain
+langchain-community
+python-dotenv
+streamlit
+sentence-transformers
+pypdf
+typing
