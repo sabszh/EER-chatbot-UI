@@ -1,12 +1,14 @@
-from main import ChatBot
 import streamlit as st
+from main import ChatBot, SimilarityRetriever
+from datetime import datetime
 
 repositories = {
+    "Mixtral-8x7B-Instruct-v0.1": "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "Mistral-7B-Instruct-v0.2": "mistralai/Mistral-7B-Instruct-v0.2",
-    "Mistral-7B-Instruct-v0.1": "mistralai/Mistral-7B-Instruct-v0.1",
-    "Mixtral-8x7B-Instruct-v0.1": "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    "Mistral-7B-Instruct-v0.1": "mistralai/Mistral-7B-Instruct-v0.1"
 }
 
+# Set up the page configuration
 st.set_page_config(page_title="EER Chatbot")
 with st.sidebar:
     st.title('EER Chatbot')
@@ -24,10 +26,14 @@ with st.sidebar:
     In cases where questions mention "we," it is assumed to be referencing a member of the EER group.
     As the user engaging with you lacks knowledge of the provided context, ensure to provide relevant details for understanding the responses.
     If uncertain about any details, kindly indicate so in your responses and maintain brevity in your answers.""", height=250)
+    
+    k_value = st.number_input("Number of documents to include in similarity search (k)", min_value=5, max_value=20, value=5)
+    
+    start_date = st.date_input("Start Date", datetime(2021, 5, 28), key="start_date") 
+    end_date = st.date_input("End Date", datetime.now(), key="end_date")
+    
 
-print("Set page config and sidebar.")
-
-# Initialize ChatBot based on selected repository and temperature
+# Initialize ChatBot based on selected repository and temperature, and k_value
 if "bot" not in st.session_state.keys() or st.session_state.custom_prompt != custom_prompt or st.session_state.selected_repo != selected_repo or st.session_state.temperature != temperature:
     repo_id = repositories[selected_repo]
     bot = ChatBot(custom_template=custom_prompt, repo_id=repo_id, temperature=temperature)
@@ -35,46 +41,48 @@ if "bot" not in st.session_state.keys() or st.session_state.custom_prompt != cus
     st.session_state.custom_prompt = custom_prompt
     st.session_state.selected_repo = selected_repo
     st.session_state.temperature = temperature
+    st.session_state.k_value = k_value
     st.session_state.messages = [{"role": "assistant", "content": "Hi, how can I help you today?"}]
     st.session_state.repo_id = repo_id
-    print("Initialized session_state.")
 else:
     bot = st.session_state.bot
 
-print("Initialized ChatBot.")
-
 # Function for generating LLM response
-def generate_response(input):
-    result = bot.rag_chain.invoke(input)
-    return result
+def generate_response(input, start_date, end_date, session_messages, k_value):
+    # Convert start_date and end_date to the required format (string)
+    start_date_str = start_date.strftime("%Y-%m-%d %H:%M:%S")
+    end_date_str = end_date.strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Prepare input with question, dates, and session messages
+    input_with_dates = {"question": input, "start_date": start_date_str, "end_date": end_date_str, "session_messages": session_messages}
+    
+    # Generate response
+    response = bot.rag_chain.invoke(input_with_dates,config={"k": bot.k_value})
+    context = SimilarityRetriever().invoke(input_with_dates, config={"k": k_value})
 
-print("Defined generate_response function.")
+    return response, context
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [{"role": "assistant", "content": "Hi, how can I help you today?"}]
-    print("Initialized session_state messages.")
 
 # Display chat messages
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.write(message["content"])
-        print(f"Displayed message: {message['content']}")
-
+        
 # User-provided prompt
 if input := st.chat_input():
     st.session_state.messages.append({"role": "user", "content": input})
     with st.chat_message("user"):
         st.write(input)
-        print(f"User input: {input}")
 
-# Generate a new response if last message is not from assistant
+# Generate a new response if the last message is not from the assistant
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
         with st.spinner("Generating an answer.."):
-            response = generate_response(input) 
-            st.write(response)
-            print(f"Generated response: {response}")
-    message = {"role": "assistant", "content": response}
+            response, context = generate_response(input, start_date, end_date, st.session_state.messages, k_value)
+        st.write(response)
+    # Add the context, user input, and assistant's response to the history
+    message = {"role": "assistant", "content": response, "context": context, "input": input}
     st.session_state.messages.append(message)
-    print(f"Appended assistant response to session_state messages.")

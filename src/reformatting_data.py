@@ -30,20 +30,19 @@ def process_file(filename):
                 # Invalid format, skipping this line
                 continue
             try:
-                timestamp_with_date = datetime.strptime(f"{date} {timestamp}", "%Y-%m-%d %H:%M:%S").strftime("%Y-%m-%dT%H:%M:%S")
-                reformatted_lines.append(f"{name}, {timestamp_with_date}, {lines[lines.index(line)+1].strip()}")
+                timestamp_with_date = datetime.strptime(f"{date} {timestamp}", "%Y-%m-%d %H:%M:%S").strftime("%a %b %d %H:%M:%S %Y %z")
+                reformatted_lines.append(f"{name};{timestamp_with_date};{lines[lines.index(line)+1].strip()}")
             except ValueError:
                 # Skip the line if timestamp parsing fails
                 continue
 
     return reformatted_lines
 
-
 # Process each file in the input folder
 for filename in os.listdir(input_folder):
     if filename.endswith(".txt"):
         # Add header to the reformatted lines
-        header = "speaker_name, date_time, transcript_text"
+        header = "speaker_name;date_time;transcript_text"
         reformatted_lines = process_file(filename)
         reformatted_lines.insert(0, header)
 
