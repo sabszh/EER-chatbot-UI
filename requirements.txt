@@ -1,4 +1,4 @@
-psycopg2-binary
+libpq-dev
 langchain
 langchain-community
 python-dotenv
