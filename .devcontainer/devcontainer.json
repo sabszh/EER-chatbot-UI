@@ -17,7 +17,8 @@
       ]
     }
   },
-  "updateContentCommand": "sudo apt-get install libpq-dev python-dev && sudo apt update && sudo apt upgrade -y && [ -f packages.txt ] && sudo xargs apt install -y < packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && pip3 uninstall -y timescale-vector[all] && echo '✅ Packages installed and Requirements met'",  "postAttachCommand": {
+  "updateContentCommand": "sudo apt-get install -y libpq-dev python-dev && sudo apt update && sudo apt upgrade -y && [ -f packages.txt ] && sudo xargs apt install -y < packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && pip3 install --user timescale-vector --no-deps && echo '✅ Packages installed and Requirements met'", 
+  "postAttachCommand": {
     "server": "streamlit run src/streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
   "portsAttributes": {
