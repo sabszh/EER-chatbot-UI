@@ -3,7 +3,6 @@ langchain_community==0.0.34
 langchain_core==0.1.45
 python-dotenv==1.0.1
 streamlit==1.33.0
+timescale_vector >= 0.0.2
 psycopg2-binary==2.9.9
 python-dotenv
-asyncpg
-pgvector
