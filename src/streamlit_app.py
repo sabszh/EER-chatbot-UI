@@ -27,8 +27,9 @@ with st.sidebar:
     As the user engaging with you lacks knowledge of the provided context, ensure to provide relevant details for understanding the responses.
     If uncertain about any details, kindly indicate so in your responses and maintain brevity in your answers.""", height=250)
     
-    k_value = st.number_input("Number of documents to include in similarity search (k)", min_value=5, max_value=20, value=5)
+    st.write("You can adjust time and amounts of documents to include in similarity search in the same session")
     
+    k_value = st.number_input("Number of documents to include in similarity search", min_value=5, max_value=20, value=5)
     start_date = st.date_input("Start Date", datetime(2021, 5, 28), key="start_date") 
     end_date = st.date_input("End Date", datetime.now(), key="end_date")
     

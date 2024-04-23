@@ -1,8 +1,6 @@
-langchain
-langchain-community
-python-dotenv
-streamlit
-sentence-transformers
-pypdf
-typing
-timescale_vector
+langchain==0.1.16
+langchain_community==0.0.34
+langchain_core==0.1.45
+python-dotenv==1.0.1
+streamlit==1.33.0
+timescale_vector==0.0.4

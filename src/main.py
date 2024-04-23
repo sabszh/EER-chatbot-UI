@@ -92,7 +92,7 @@ class ChatBot():
 
     print("Prompt template created...")
 
-    def __init__(self, custom_template=None, repo_id=None, temperature=0.8, k_value=1):  # Add k_value as an argument
+    def __init__(self, custom_template=None, repo_id=None, temperature=0.8, k_value=1):  
         if custom_template:
             self.template = custom_template
         else:
@@ -108,7 +108,7 @@ class ChatBot():
             temperature=temperature,
             top_p=0.8,
             top_k=50,
-            huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
+            huggingfacehub_api_token=huggingfacehub_api_token
         )
     
         # Initialize the chain
