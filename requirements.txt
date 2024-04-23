@@ -1,4 +1,3 @@
-libpq-dev
 langchain
 langchain-community
 python-dotenv
