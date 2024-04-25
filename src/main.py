@@ -8,8 +8,8 @@ from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
-from timescalevector import TimescaleVector
-import client
+from langchain_community.vectorstores.timescalevector import TimescaleVector
+from timescale_vector import client
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts.prompt import PromptTemplate
