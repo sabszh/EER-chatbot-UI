@@ -1,5 +1,5 @@
 import streamlit as st
-from main import ChatBot, SimilarityRetriever
+from main_ts import ChatBot, SimilarityRetriever
 from datetime import datetime
 
 repositories = {

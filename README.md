@@ -1,66 +1,129 @@
-# EER (Experiencing, Experimenting, Reflecting) Chatbot
-## Project Description
+<p align="left">
+  <img src="https://static.vecteezy.com/system/resources/previews/024/673/126/original/question-answer-chat-document-paper-with-ai-artificial-intelligence-chat-bot-3d-render-icon-illustration-design-png.png" width="100" />
+  <h1 align="left">EER (Experiencing, Experimenting, Reflecting) Chatbot</h1>
+</p>
+
+<p align="left">
+    <img src="https://img.shields.io/github/license/sabszh/EER-chatbot-UI?style=flat&color=0080ff" alt="license">
+    <img src="https://img.shields.io/github/last-commit/sabszh/EER-chatbot-UI?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+    <img src="https://img.shields.io/github/languages/top/sabszh/EER-chatbot-UI?style=flat&color=0080ff" alt="repo-top-language">
+    <img src="https://img.shields.io/github/languages/count/sabszh/EER-chatbot-UI?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="left">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="left">
+	<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white" alt="Streamlit">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+</p>
+<hr>
+
+##  Overview
+
 This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the [EER](https://www.eer.info/) project.
 
-## Overview
+---
 
-The chatbot consists of three main files:
-- `data_chunking.py`: Defines functions for loading and chunking text data from text and PDF files.
-- `main.py`: Contains the core logic of the chatbot, including initialization of language models, document loading, RAG chain and response generation.
-- `streamlit_app.py`: Implements the Streamlit web application for interacting with the chatbot.
+##  Repository Structure
 
-**Setup Instructions:**
-1. Clone the repository containing the project files.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Ensure you have API keys for Pinecone and Hugging Face, and set them as environment variables in a `.env` file.
-4. Organize your data into the specified folders:
-   - Place text documents in the 'data/reformatted_transcripts/' folder.
-   - Place PDF documents in the 'data/EER-site-pages-pdf/' folder.
-5. Run `python main.py` to initialize the chatbot and create the Pinecone index.
-6. Launch the Streamlit app by running `streamlit run streamlit_app.py`.
-7. Interact with the chatbot through the Streamlit user interface.
+```sh
+└── /
+    ├── README.md
+    ├── requirements.txt
+    └── src
+        ├── data_chunking.py
+        ├── main.py
+        ├── reformatting_data.py
+        ├── streamlit_app.py
+        └── timescale
+            ├── data_chunking_ts.py
+            ├── main_ts.py
+            ├── packages.txt
+            └── streamlit_app_ts.py
+```
 
-## Setup
+---
 
-To run the chatbot, follow these steps:
+##  Modules
 
-1. Ensure you have Python installed on your system.
-2. Install the required dependencies by running:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Set up environment variables:
-   - `PINECONE_API_KEY`: API key for Pinecone indexing service.
-   - `HUGGINGFACE_API_KEY`: API key for accessing Hugging Face models.
+<details closed><summary>.</summary>
 
-**Usage:**
-1. Run `main.py` to initialize the chatbot and create the Pinecone index.
-2. Launch the Streamlit app by running `streamlit run streamlit_app.py`.
-4. Interact with the chatbot by providing prompts and observing its responses in the Streamlit interface.
+| File                                                                                      | Summary                                                                                                                                                                                        |
+| ---                                                                                       | ---                                                                                                                                                                                            |
+| [requirements.txt](https://github.com/sabszh/EER-chatbot-UI/blob/master/requirements.txt) | This `requirements.txt` ensures the application's compatibility and functionality by defining necessary Python packages for the data processing and web application modules of the repository. |                                 |
 
-## Dependecies
-Make sure to add data in the data folder.
+</details>
 
-## Repo structure
+<details closed><summary>src</summary>
 
-```plaintext
-Project Root
-│
-├── .venv
-├── .env
-├── .devcontainer
-│   └── devcontainer.json
-│
-├── data
-│   └── .folders
-│
-├── src
-│   ├── data_chunking.py
-│   ├── main.py
-│   ├── reformatting_data.py
-│   └── streamlit_app.py
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
+| File                                                                                                  | Summary                                                                                                                                                                                                          |
+| ---                                                                                                   | ---                                                                                                                                                                                                              |
+| [main.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/main.py)                           | The `main.py` within this repository sets up a chatbot leveraging Pinecone index and HuggingFace embeddings for document search, with custom prompt templates for the EER Project's inquiries. |
+| [streamlit_app.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/streamlit_app.py)         | Core interface of the chatbot, allowing user to select AI models and adjust interaction parameters within a Streamlit-based web app.                                                                               |
+| [reformatting_data.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/reformatting_data.py) | The script `reformatting_data.py` within the repo transforms raw transcript files into a structured CSV format, handling various timestamp styles and creating a standardized naming and storage schema.         |
+| [data_chunking.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/data_chunking.py)         | The data_chunking.py module is responsible for extracting and preparing text data from various document types within a document processing pipeline.                                                             |
+
+</details>
+
+<details closed><summary>src.timescale</summary>
+
+| File                                                                                                          | Summary                                                                                                                                                                                                        |
+| ---                                                                                                           | ---                                                                                                                                                                                                            |
+| [main_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/main_ts.py)                   | This component interfaces with the TimescaleDB and Hugging Face services, primarily handling embeddings and document loading for the data processing pipeline.                                                 |
+| [streamlit_app_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/streamlit_app_ts.py) | This snippet initializes a Streamlit app providing interface for a chatbot, with timescale data interaction. |
+| [data_chunking_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/data_chunking_ts.py) | The `data_chunking_ts.py` script within the Timescale module handles text data ingestion from CSV files, with UUIDs based on timestamps, and then chunks the data for further processing.       |
+
+</details>
+
+---
+
+##  Getting Started
+
+***Requirements***
+
+Ensure you have the following dependencies installed on your system:
+
+* **Python**: `version 3.x.x`
+* **API Keys**: Obtain API keys for Hugging Face, Pinecone, and/or TimescaleDB.
+
+###  Installation
+
+1. Clone the  repository:
+
+```sh
+git clone https://github.com/sabszh/EER-chatbot-UI/
+```
+
+2. Change to the project directory:
+
+```sh
+cd 
+```
+
+3. Install the dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+4. Create a .env file in the root directory of the project and add the following:
+
+```sh
+HUGGINGFACE_API_KEY=your_huggingface_api_key
+PINECONE_API_KEY=your_pinecone_api_key
+TIMESCALE_API_KEY=your_timescale_api_key
+```
+
+###  Running 
+
+Use the following command to run streamlit app locally using Pinecone index:
+
+```sh
+streamlit run src/streamlit_app.py
+```
+
+Use the following command to run streamlit app locally using Timescale index:
+
+```sh
+streamlit run src/timescale/streamlit_app_ts.py
 ```
