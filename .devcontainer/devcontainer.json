@@ -17,7 +17,10 @@
     }
   },
   "runArgs": ["--user", "root"], // Ensure running as root to perform system-level changes
-  "updateContentCommand": "sudo apt update && sudo apt install -y build-essential python3-dev libpq-dev && sudo apt upgrade -y && pip install --no-binary psycopg2 psycopg2 && sudo xargs apt install -y < packages.txt && [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && echo '✅ Packages installed and Requirements met'",
+  "mounts": [
+    "source=/usr/bin/pg_config,target=/usr/bin/pg_config,type=bind,consistency=cached"
+  ],
+  "updateContentCommand": "sudo apt update && sudo apt install -y build-essential python3-dev libpq-dev postgresql-server-dev-all && pip install --no-binary psycopg2 psycopg2 && sudo xargs apt install -y < packages.txt && [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {
     "server": "streamlit run src/streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
