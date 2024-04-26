@@ -17,7 +17,7 @@
       ]
     }
   },
-  "updateContentCommand": "apt-get install libpq-dev && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y < packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && echo '✅ Packages installed and Requirements met'", 
+  "updateContentCommand": "sudo apt update && sudo apt install build-essential python3-dev libpq-dev && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y < packages.txt && [ -f requirements.txt ] && pip3 install --user -r requirements.txt && pip3 install --user streamlit && echo '✅ Packages installed and Requirements met'", 
   "postAttachCommand": {
     "server": "streamlit run src/streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
