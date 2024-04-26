@@ -1,11 +1,7 @@
-setuptools
-langchain==0.1.16
-langchain_community==0.0.34
-langchain_core==0.1.45
+langchain==0.1.13
+pinecone-client==3.2.1
 python-dotenv==1.0.1
 streamlit==1.33.0
-timescale-vector
-sentence_transformers
-python-dotenv
-asyncpg
-pgvector
+sentence-transformers==2.6.1
+langchain-community==0.0.29
+pypdf==4.1.0
