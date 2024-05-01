@@ -12,4 +12,5 @@ requirements_ts.txt
 src/test_2.ipynb
 src/test_timescale.ipynb
 src/test_1.ipynb
+src/test_3.ipynb
 src/__pycache__

@@ -7,46 +7,50 @@ repositories = {
     "Mistral-7B-Instruct-v0.1": "mistralai/Mistral-7B-Instruct-v0.1"
 }
 
+retriever_methods = {
+    "MultiQueryRetriever": "multiquery_retriever_llm",
+    "Vector store-backed retriever": "docsearch"
+}
+
 st.set_page_config(page_title="EER Chatbot")
 with st.sidebar:
     st.title('EER Chatbot')
     st.write("Be aware, if you make any changes here that the chatbot will reload and your chat will be gone.")
     selected_repo = st.selectbox("Select the Model Repository", list(repositories.keys()))
-
+    selected_retriever = st.selectbox("Select the Retriever Method", list(retriever_methods.keys()))
     temperature = st.slider("Select the Temperature (0-2)", min_value=0.1, max_value=2.0, value=1.0, step=0.01)
-    
     custom_prompt = st.text_area('Edit Preprompt',
-    """You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science. You have access to a collection of documents, including descriptions of research activities, meeting transcripts, and other relevant materials. Your main task is to help the user explore and reflect on the EER project. All questions should pertain to the EER Project unless specified otherwise. When possible, please cite source documents at the end of your answer.""", height=250)
-
-print("Set page config and sidebar.")
+    """You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science.
+    You have access to a collection of documents, including descriptions of research activities, meeting transcripts, and other relevant materials.
+    Your main task is to help the user explore and reflect on the EER project.
+    All questions should pertain to the EER Project unless specified otherwise.
+    When possible, please cite source documents at the end of your answer.""",height=250)
 
 # Initialize ChatBot based on selected repository and temperature
-if "bot" not in st.session_state.keys() or st.session_state.custom_prompt != custom_prompt or st.session_state.selected_repo != selected_repo or st.session_state.temperature != temperature:
+if "bot" not in st.session_state.keys() or st.session_state.custom_prompt != custom_prompt or st.session_state.selected_repo != selected_repo or st.session_state.temperature != temperature or "selected_retriever" not in st.session_state.keys() or st.session_state.selected_retriever != selected_retriever:
     repo_id = repositories[selected_repo]
-    bot = ChatBot(custom_template=custom_prompt, repo_id=repo_id, temperature=temperature)
+    retriever_method = retriever_methods[selected_retriever]
+    bot = ChatBot(custom_template=custom_prompt, repo_id=repo_id, temperature=temperature, retriever_method=retriever_method)
     st.session_state.bot = bot
     st.session_state.custom_prompt = custom_prompt
     st.session_state.selected_repo = selected_repo
     st.session_state.temperature = temperature
+    st.session_state.retriever_method = retriever_method
     st.session_state.messages = [{"role": "assistant", "content": "Hi, how can I help you today?"}]
     st.session_state.repo_id = repo_id
+    st.session_state.selected_retriever = selected_retriever
     print("Initialized session_state.")
 else:
     bot = st.session_state.bot
-
-print("Initialized ChatBot.")
 
 # Function for generating LLM response
 def generate_response(input):
     result = bot.rag_chain.invoke(input)
     return result
 
-print("Defined generate_response function.")
-
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [{"role": "assistant", "content": "Hi, how can I help you today?"}]
-    print("Initialized session_state messages.")
 
 # Display chat messages
 for message in st.session_state.messages:

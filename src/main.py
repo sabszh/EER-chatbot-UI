@@ -5,6 +5,7 @@ from langchain_community.vectorstores.pinecone import Pinecone
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
+from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
 from dotenv import load_dotenv
 from pinecone import Pinecone as pc
@@ -36,17 +37,12 @@ class ChatBot():
     
     llm = None  # Define llm, it will be initialized in __init__
 
-    print("HuggingFace Hub initialized...")
-
     default_template = """
     You are a chatbot working for the Experimenting Experiencing Reflecting (EER) Project, a research endeavor investigating the connections between art and science.
-    You have access to a vast collection of documents, including research papers, meeting transcripts, and other relevant materials.
-    The dialogue from the meetings may contain errors, prompting you to deduce the most probable information from the surrounding context.
-    Your main task is to provide information and answer questions based on the available data to assist the project members in their tasks.
+    You have access to a collection of documents, including descriptions of research activities, meeting transcripts, and other relevant materials.
+    Your main task is to help the user explore and reflect on the EER project.
     All questions should pertain to the EER Project unless specified otherwise.
-    In cases where questions mention "we," it is assumed to be referencing a member of the EER group.
-    As the user engaging with you lacks knowledge of the provided context, ensure to provide relevant details for understanding 
-    If uncertain about any details, kindly indicate so in your responses and maintain brevity in your answers.
+    When possible, please cite source documents at the end of your answer.
     """
     
     template_end = """
@@ -55,10 +51,8 @@ class ChatBot():
     Answer: 
     
     """
-
-    print("Prompt template created...")
-
-    def __init__(self, custom_template=None, repo_id=None, temperature=0.8):
+    
+    def __init__(self, custom_template=None, repo_id=None, temperature=0.8, retriever_method='multiquery_retriever_llm'):
         if custom_template:
             self.template = custom_template
         else:
@@ -66,6 +60,8 @@ class ChatBot():
         
         self.temperature = temperature
         self.repo_id = repo_id
+        self.retriever_method = retriever_method
+        docsearch = self.docsearch
         
         # Initialize llm with repo_id
         self.llm = HuggingFaceHub(
@@ -76,9 +72,16 @@ class ChatBot():
             huggingfacehub_api_token=os.getenv('HUGGINGFACE_API_KEY')
         )
 
+        if retriever_method == "docsearch":
+            retriever_method = docsearch.as_retriever()
+        elif retriever_method == "multiquery_retriever_llm":
+            multiquery_retriever_llm = MultiQueryRetriever.from_llm(retriever=docsearch.as_retriever(), llm=self.llm)
+            retriever_method = multiquery_retriever_llm
+
+
         # Initialize the chain
         self.rag_chain = (
-            {"context": self.docsearch.as_retriever(), "question": RunnablePassthrough()}
+            {"context": retriever_method, "question": RunnablePassthrough()}
             | PromptTemplate(template=self.template+self.template_end, input_variables=["context", "question"])
             | self.llm
             | StrOutputParser()

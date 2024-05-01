@@ -28,6 +28,7 @@ This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve 
 
 ```sh
 └── /
+
     ├── README.md
     ├── requirements.txt
     └── src
