@@ -22,6 +22,8 @@
 
 This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the [EER](https://www.eer.info/) project.
 
+NB: For timescale version of app, see here: https://github.com/sabszh/EER-TIMEBOT
+
 ---
 
 ##  Repository Structure
