@@ -3,3 +3,5 @@ langchain-community==0.0.29
 pinecone-client==3.2.1
 python-dotenv==1.0.1
 streamlit==1.33.0
+--no-cache-dir torch==1.8.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+sentence-transformers

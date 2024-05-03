@@ -19,21 +19,22 @@ load_dotenv()
 class ChatBot():
     
     embeddings = HuggingFaceEmbeddings()
-    
-    pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=embeddings)
+    #pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=embeddings)
     
     index_name = "eerbot"
     environment = "gcp-starter"
     spec = PodSpec(environment=environment)
     
-    if index_name not in pinecone_instance.list_indexes().names():
+    """ if index_name not in pinecone_instance.list_indexes().names():
         docs = datachunk()
         pinecone_instance.create_index(name=index_name, metric="cosine", dimension=768, spec=spec)
         docsearch = Pinecone.from_documents(docs, embeddings, index_name=index_name)
         print("Created new Pinecone index and loaded documents")
     else:
         docsearch = Pinecone.from_existing_index(index_name, embeddings)
-        print("Using existing Pinecone index")
+        print("Using existing Pinecone index") """
+    
+    docsearch = Pinecone.from_existing_index(index_name, embeddings)
     
     llm = None  # Define llm, it will be initialized in __init__
 
