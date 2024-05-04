@@ -7,12 +7,14 @@ from dotenv import load_dotenv
 from pinecone import Pinecone as pc
 from pinecone import PodSpec
 import os
+import sys
+sys.path.append("..") 
 
 load_dotenv()
 
 def datachunk():
-    transcripts_folder = 'data/reformatted_transcripts/'
-    pdf_folder = 'data/EER-site-pages-pdf/'
+    transcripts_folder = os.path.join("data","reformatted_transcripts")
+    pdf_folder = os.path.join("data","EER-site-pages-pdf")
 
     print("Loading files...")
 

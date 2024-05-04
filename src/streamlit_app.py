@@ -15,7 +15,8 @@ retriever_methods = {
 st.set_page_config(page_title="EER Chatbot")
 with st.sidebar:
     st.title('EER Chatbot')
-    st.write("Be aware, if you make any changes here that the chatbot will reload and your chat will be gone.")
+    st.write("""Be aware, if you make any changes here that the chatbot will reload and your chat will be gone.
+             If you get an error, try a different model. If that does not work, it might be overloaded or down - so try again later.""")
     selected_repo = st.selectbox("Select the Model Repository", list(repositories.keys()))
     selected_retriever = st.selectbox("Select the Retriever Method", list(retriever_methods.keys()))
     temperature = st.slider("Select the Temperature (0-2)", min_value=0.1, max_value=2.0, value=1.0, step=0.01)
