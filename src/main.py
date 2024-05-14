@@ -43,7 +43,7 @@ class ChatBot():
     You have access to a collection of documents, including descriptions of research activities, meeting transcripts, and other relevant materials.
     Your main task is to help the user explore and reflect on the EER project.
     All questions should pertain to the EER Project unless specified otherwise.
-    When possible, please cite source documents at the end of your answer.
+    When possible, please cite source documents in your answer (calling the documents the transcript date, e.g. "2021-05-28", or website page after the "/").
     """
     
     template_end = """

@@ -25,7 +25,7 @@ with st.sidebar:
     You have access to a collection of documents, including descriptions of research activities, meeting transcripts, and other relevant materials.
     Your main task is to help the user explore and reflect on the EER project.
     All questions should pertain to the EER Project unless specified otherwise.
-    When possible, please cite source documents at the end of your answer.""",height=250)
+    When possible, please cite source documents in your answer (calling the documents the transcript date, e.g. "2021-05-28", or website page after the "/").""",height=250)
 
 # Initialize ChatBot based on selected repository and temperature
 if "bot" not in st.session_state.keys() or st.session_state.custom_prompt != custom_prompt or st.session_state.selected_repo != selected_repo or st.session_state.temperature != temperature or "selected_retriever" not in st.session_state.keys() or st.session_state.selected_retriever != selected_retriever:
