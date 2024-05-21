@@ -73,7 +73,7 @@ NB: For timescale version of app, see here: https://github.com/sabszh/EER-TIMEBO
 Ensure you have the following dependencies installed on your system:
 
 * **Python**: `version 3.x.x`
-* **API Keys**: Obtain API keys for Hugging Face, Pinecone, and/or TimescaleDB.
+* **API Keys**: Obtain API keys for Hugging Face and Pinecone.
 
 ###  Installation
 
