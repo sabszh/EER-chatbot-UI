@@ -39,10 +39,6 @@ NB: For timescale version of app, see here: https://github.com/sabszh/EER-TIMEBO
         ├── reformatting_data.py
         ├── streamlit_app.py
         └── timescale
-            ├── data_chunking_ts.py
-            ├── main_ts.py
-            ├── packages.txt
-            └── streamlit_app_ts.py
 ```
 
 ---
