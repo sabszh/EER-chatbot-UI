@@ -64,16 +64,6 @@ NB: For timescale version of app, see here: https://github.com/sabszh/EER-TIMEBO
 
 </details>
 
-<details closed><summary>src.timescale</summary>
-
-| File                                                                                                          | Summary                                                                                                                                                                                                        |
-| ---                                                                                                           | ---                                                                                                                                                                                                            |
-| [main_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/main_ts.py)                   | This component interfaces with the TimescaleDB and Hugging Face services, primarily handling embeddings and document loading for the data processing pipeline.                                                 |
-| [streamlit_app_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/streamlit_app_ts.py) | This snippet initializes a Streamlit app providing interface for a chatbot, with timescale data interaction. |
-| [data_chunking_ts.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/timescale/data_chunking_ts.py) | The `data_chunking_ts.py` script within the Timescale module handles text data ingestion from CSV files, with UUIDs based on timestamps, and then chunks the data for further processing.       |
-
-</details>
-
 ---
 
 ##  Getting Started
