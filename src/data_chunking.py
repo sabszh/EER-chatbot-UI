@@ -1,20 +1,10 @@
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores.pinecone import Pinecone
-from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
-from dotenv import load_dotenv
-from pinecone import Pinecone as pc
-from pinecone import PodSpec
 import os
-import sys
-sys.path.append("..") 
-
-load_dotenv()
 
 def datachunk():
-    transcripts_folder = os.path.join("data","reformatted_transcripts")
-    pdf_folder = os.path.join("data","EER-site-pages-pdf")
+    transcripts_folder = os.path.join("..","data","reformatted_transcripts")
+    pdf_folder = os.path.join("..","data","EER-site-pages-pdf")
 
     print("Loading files...")
 
