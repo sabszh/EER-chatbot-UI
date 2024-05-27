@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import sys
 
 input_folder = "data/raw_transcripts"
 output_folder = "data/reformatted_transcripts"
