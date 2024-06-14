@@ -17,7 +17,7 @@
       ]
     }
   },
-  "updateContentCommand": "",
+  "updateContentCommand": "pip install streamlit",
   "postAttachCommand": {
     "server": "streamlit run src/redirect.py --server.enableCORS false --server.enableXsrfProtection false"
   },
