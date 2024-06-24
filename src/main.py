@@ -9,13 +9,29 @@ from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.llms.huggingface_endpoint import HuggingFaceEndpoint as HuggingFaceHub
 from dotenv import load_dotenv
 import os
+from data_chunking import datachunk
+from pinecone import Pinecone as pc
+from pinecone import PodSpec
+from pinecone import ServerlessSpec
 
 load_dotenv()
 
 class ChatBot():
     def __init__(self, custom_template=None, repo_id=None, temperature=0.8):
         self.embeddings = HuggingFaceEmbeddings()
-        self.index_name = "eerbot"
+        self.index_name = "boteer"
+        pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=self.embeddings)
+        spec = ServerlessSpec(cloud="aws",region="us-east-1")
+        
+        #if self.index_name not in pinecone_instance.list_indexes().names():
+        #    docs = datachunk()
+        #    pinecone_instance.create_index(name=self.index_name, metric="cosine", dimension=768, spec=spec)
+        #    self.docsearch = Pinecone.from_documents(docs, self.embeddings, index_name=self.index_name)
+        #    print("Created new Pinecone index and loaded documents")
+        #else:
+        #    self.docsearch = Pinecone.from_existing_index(self.index_name, self.embeddings)
+        #    print("Using existing Pinecone index")
+    
         self.docsearch = Pinecone.from_existing_index(self.index_name, self.embeddings)
 
         self.template = custom_template if custom_template else self.default_template()
@@ -57,3 +73,7 @@ class ChatBot():
         Question: {question}
         Answer: 
         """
+        
+if __name__ == "__main__":
+    ChatBot(repo_id="mistralai/Mistral-7B-Instruct-v0.2")
+    print("Chatbot initialized...")
