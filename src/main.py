@@ -50,7 +50,7 @@ class ChatBot():
 
         # Initialize the chain
         self.rag_chain = (
-            {"context": multiquery_retriever_llm, "question": RunnablePassthrough()}
+            {"context": multiquery_retriever_llm.batch, "question": RunnablePassthrough()}
             | PromptTemplate(template=self.template + self.template_end(), input_variables=["context", "question"])
             | self.llm
             | StrOutputParser()
