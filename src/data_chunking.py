@@ -4,16 +4,15 @@ from langchain.schema import Document
 import os
 import pandas as pd
 
-def datachunk():
-    transcripts_folder = os.path.join("data", "reformatted_transcripts")
-    pdf_folder = os.path.join("data", "EER-site-pages-pdf")
-
-    print("Loading files...")
-
+def datachunk(transcripts_folder, pdf_folder):
+    """
+    Load text documents from CSV and PDF files and split them into chunks.
+    """
     csv_files = [file for file in os.listdir(transcripts_folder) if file.endswith('.csv')]
     pdf_files = [file for file in os.listdir(pdf_folder) if file.endswith('.pdf')]
 
-    documents = []
+    documents_csv = []
+    documents_pdf = []
 
     # Extract text documents and add metadata from CSV files
     for csv_file in csv_files:
@@ -32,7 +31,7 @@ def datachunk():
                     "source": csv_file
                 }
             )
-            documents.append(document)
+            documents_csv.append(document)
 
     print("CSV files loaded...")
 
@@ -40,16 +39,20 @@ def datachunk():
     for pdf_file in pdf_files:
         loader = PyPDFLoader(os.path.join(pdf_folder, pdf_file))
         doc_content = loader.load()
-        documents.extend(doc_content)
+        documents_pdf.extend(doc_content)
 
     print("PDF files loaded...")
 
+    
     # Split text documents into chunks
-    text_documents = [doc for doc in documents if isinstance(doc, Document) and doc.page_content]
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function=len)
+    text_documents = [doc for doc in documents_pdf if isinstance(doc, Document) and doc.page_content]
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function=len, )
     split_docs = text_splitter.split_documents(text_documents)
 
     # Combine split text documents with PDF documents
-    docs = split_docs + [doc for doc in documents if not isinstance(doc, Document)]
-
+    docs = split_docs + [doc for doc in documents_pdf if not isinstance(doc, Document)]
+    
+    # Add data from CSV files to the combined documents
+    docs.extend(documents_csv)
+    
     return docs
