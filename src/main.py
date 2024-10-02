@@ -109,7 +109,7 @@ class chatbot:
         return context
 
     # Method to upsert data to Pinecone index
-    def upsert_vectorstore(self, user_input, ai_output, user_name, user_location, session_id):
+    def upsert_vectorstore(self, user_input, ai_output, user_name, session_id):
         # Pinecone index for chat data
         pinecone_instance_chat = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=self.embeddings)
         index_name = "eer-interaction-data"
@@ -130,13 +130,12 @@ class chatbot:
                     "user_name": user_name,
                     "session_id": session_id,
                     "date": datetime.now(timezone.utc).isoformat(),
-                    "user_location": user_location, 
                     "text": f"User input: {user_input}, AI output: {ai_output}"
                 }
             }
         ])
 
-    def pipeline(self, user_input, user_name, session_id, user_location, chat_history=None):
+    def pipeline(self, user_input, user_name, session_id, chat_history=None):
         # Step 0: Add chat history to the context
         if chat_history:
             chat_history = chat_history + "\n\n"
@@ -165,7 +164,7 @@ class chatbot:
         print("conversation_response: ", conversation_response)
 
         # Upsert to vector store
-        self.upsert_vectorstore(user_input, ai_output, user_name, user_location, session_id)
+        self.upsert_vectorstore(user_input, ai_output, user_name, session_id)
 
         # Return a dictionary containing all relevant information
         return {

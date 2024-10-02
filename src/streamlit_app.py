@@ -32,14 +32,12 @@ if "history" not in st.session_state:
     st.session_state.history = StreamlitChatMessageHistory()
 
 # Function to capture and set the user's name
-@st.dialog("User Name and Location", width="small")
+@st.dialog("Please enter your name:", width="small")
 def ask_name():
-    user_name = st.text_input("Please enter your name:")
-    location = st.text_input("Please enter your location:")
+    user_name = st.text_input("")
     if st.button("Submit"):
-        if user_name and location:
+        if user_name:
             st.session_state.user_name = user_name
-            st.session_state.location = location
             st.rerun()
 
 if st.session_state.user_name is None:
@@ -69,14 +67,14 @@ def generate_response(input_text):
         if msg.get('type') == 'ai' or msg.get('type') == 'user'
         ])
     
-    result = bot.pipeline(user_input=input_text, user_name=st.session_state.user_name, user_location=st.session_state.location, session_id=st.session_state.session_id, chat_history=chat_history)
+    result = bot.pipeline(user_input=input_text, user_name=st.session_state.user_name, session_id=st.session_state.session_id, chat_history=chat_history)
     
     return result
 
 # Main chat interface
 st.title(f"🤖 EER Transcript Explorer Bot")
 st.write("""
-        This is a chatbot with access to meeting transcripts from the EER project (May 2021 - January 2024) and relevant project documents. Please note that all interactions are stored in a database and will be visible to other users. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things.
+        This is a chatbot with access to meeting transcripts from the EER project (May 2021 - January 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
  """)
 
 chat_container = st.container()
@@ -108,23 +106,22 @@ with chat_container:
                             if metadata.get("page") is not None:
                                 with st.expander(f"PDF Document {idx} - Page {metadata['page']}"):
                                     st.markdown(f"**Source:** {metadata.get('source', 'Unknown source')}")
-                                    st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")
                                     st.markdown(f"**Content:** {doc.page_content}")
+                                    st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")   
                             else:
                                 with st.expander(f"Meeting Transcript {idx} - {metadata.get('speaker_name', 'Unknown Speaker')}"):
+                                    st.markdown(f"**Content:** {doc.page_content}")
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                                    st.markdown(f"**Content:** {doc.page_content}")
+                                    
                     # Expander for Previous Chat (Past Memory)
                     if past_chat_context:
                         with st.expander("Data from previous conversations with this LLM", expanded=False):
                             for idx, doc in enumerate(past_chat_context, 1):
                                 with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
                                     st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
                                     st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
-                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                    st.markdown(f"**Location:** {doc.metadata.get('location', 'Unknown location')}")
-
 # Handle user input
 input_text = st.chat_input("Type your message here...")
 
@@ -171,21 +168,22 @@ if input_text:
                             if metadata.get("page") is not None:
                                 with st.expander(f"PDF Document {idx} - Page {metadata['page']}"):
                                     st.markdown(f"**Source:** {metadata.get('source', 'Unknown source')}")
-                                    st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")
                                     st.markdown(f"**Content:** {doc.page_content}")
+                                    st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")   
                             else:
                                 with st.expander(f"Meeting Transcript {idx} - {metadata.get('speaker_name', 'Unknown Speaker')}"):
+                                    st.markdown(f"**Content:** {doc.page_content}")
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                                    st.markdown(f"**Content:** {doc.page_content}")
+                                    
                     # Expander for Previous Chat (Past Memory)
                     if past_chat_context:
                         with st.expander("Data from previous conversations with this LLM", expanded=False):
                             for idx, doc in enumerate(past_chat_context, 1):
                                 with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
                                     st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
                                     st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
-                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                    st.markdown(f"**Location:** {doc.metadata.get('location', 'Unknown location')}")
+                                   
     except Exception as e:
             st.error(f"Error generating response: {e}")
