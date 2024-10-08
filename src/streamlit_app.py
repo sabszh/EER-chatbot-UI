@@ -1,8 +1,20 @@
 import streamlit as st
+import logging  # Import logging
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 import uuid
 from main import chatbot
 import streamlit_nested_layout
+
+# Set up logging to only log user input, AI responses, and errors
+logging.basicConfig(
+    level=logging.INFO,  # Set to INFO to capture both user input and AI responses
+    format='%(asctime)s - %(message)s',
+    handlers=[
+        logging.FileHandler("chatbot_log.log"),  # Log to a file
+        logging.StreamHandler()  # Log to console
+    ]
+)
+logger = logging.getLogger(__name__)
 
 st.set_page_config(page_title="EER Transcript Explorer Bot", layout="wide")
 
@@ -14,7 +26,15 @@ if "first_question" not in st.session_state:
 
 # Initialize ChatBot instance if needed
 def initialize_bot():
-    bot = chatbot()
+    try:
+        if "bot" not in st.session_state or st.session_state.bot is None:
+            st.session_state.bot = chatbot()
+            logger.info("Chatbot initialized successfully")
+    except Exception as e:
+        st.error(f"Error initializing bot: {e}")
+        logger.error(f"Error initializing bot: {e}")
+
+initialize_bot()
 
 # Initialize session state variables
 if "chat_data" not in st.session_state:
@@ -38,23 +58,11 @@ def ask_name():
     if st.button("Submit"):
         if user_name:
             st.session_state.user_name = user_name
+            logger.info(f"User name set to: {user_name}")
             st.rerun()
 
 if st.session_state.user_name is None:
     ask_name()
-    
-# Initialize the chatbot instance if required
-def initialize_bot():
-    
-    try:
-        if ("bot" not in st.session_state or st.session_state.bot is None):
-            st.session_state.bot = chatbot()
-            
-    except Exception as e:
-        st.error(f"Error initializing bot: {e}")
-        print(f"Error initializing bot: {e}")
-
-initialize_bot()
 
 # Function to generate a response from the chatbot
 def generate_response(input_text):
@@ -65,11 +73,16 @@ def generate_response(input_text):
         f"User: {msg.get('input_text', '')}\nAI: {msg.get('ai_output', '')}" 
         for msg in st.session_state.chat_data 
         if msg.get('type') == 'ai' or msg.get('type') == 'user'
-        ])
+    ])
     
-    result = bot.pipeline(user_input=input_text, user_name=st.session_state.user_name, session_id=st.session_state.session_id, chat_history=chat_history)
-    
-    return result
+    try:
+        result = bot.pipeline(user_input=input_text, user_name=st.session_state.user_name, session_id=st.session_state.session_id, chat_history=chat_history)
+        logger.info(f"AI Response: {result.get('ai_output', 'No answer generated')}")
+        return result
+    except Exception as e:
+        st.error(f"Error generating response: {e}")
+        logger.error(f"Error generating response: {e}")
+        return {}
 
 # Main chat interface
 st.title(f"🤖 EER Transcript Explorer Bot")
@@ -98,6 +111,7 @@ with chat_container:
             with st.chat_message("ai"):
                 st.write(ai_output)  # Display AI response
 
+                # Expander for referenced transcripts and documents
                 with st.expander("Referenced data", expanded=False):
                     with st.expander("Transcripts and documents", expanded=False):
                         for idx, doc in enumerate(source_data, start=1):
@@ -113,20 +127,24 @@ with chat_container:
                                     st.markdown(f"**Content:** {doc.page_content}")
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                                    
-                    # Expander for Previous Chat (Past Memory)
-                    if past_chat_context:
-                        with st.expander("Data from previous conversations with this LLM", expanded=False):
-                            for idx, doc in enumerate(past_chat_context, 1):
-                                with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
-                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                    st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
-                                    st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
+
+                # Expander for previous chat (past memory)
+                if past_chat_context:
+                    with st.expander("Data from previous conversations with this LLM", expanded=False):
+                        for idx, doc in enumerate(past_chat_context, 1):
+                            with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
+                                st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
+                                st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
+
 # Handle user input
 input_text = st.chat_input("Type your message here...")
 
 if input_text:
     try:
+        # Log the user question
+        logger.info(f"User Question: {input_text}")
+
         # Append user message to chat_data
         st.session_state.chat_data.append({
             "type": "user",
@@ -158,32 +176,34 @@ if input_text:
             # Display AI message
             with chat_container.chat_message("ai"):
                 st.write(ai_output)
-                
-                 # Expander for Memories (Referenced Data)
-                with st.expander("Referenced data", expanded=False):
-                    with st.expander("Transcripts and documents", expanded=False):
-                        for idx, doc in enumerate(source_data, start=1):
-                            metadata = doc.metadata
-                            # Check if it's a PDF or a meeting transcript
-                            if metadata.get("page") is not None:
-                                with st.expander(f"PDF Document {idx} - Page {metadata['page']}"):
-                                    st.markdown(f"**Source:** {metadata.get('source', 'Unknown source')}")
-                                    st.markdown(f"**Content:** {doc.page_content}")
-                                    st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")   
-                            else:
-                                with st.expander(f"Meeting Transcript {idx} - {metadata.get('speaker_name', 'Unknown Speaker')}"):
-                                    st.markdown(f"**Content:** {doc.page_content}")
-                                    st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
-                                    st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                                    
-                    # Expander for Previous Chat (Past Memory)
-                    if past_chat_context:
-                        with st.expander("Data from previous conversations with this LLM", expanded=False):
-                            for idx, doc in enumerate(past_chat_context, 1):
-                                with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
-                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                    st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
-                                    st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
-                                   
+
+            # Expander for Memories (Referenced Data)
+            with st.expander("Referenced data", expanded=False):
+                with st.expander("Transcripts and documents", expanded=False):
+                    for idx, doc in enumerate(source_data, start=1):
+                        metadata = doc.metadata
+                        # Check if it's a PDF or a meeting transcript
+                        if metadata.get("page") is not None:
+                            with st.expander(f"PDF Document {idx}: Page {metadata['page']}"):
+                                st.markdown(f"**Source:** {metadata.get('source', 'Unknown source')}")
+                                st.markdown(f"**Content:** {doc.page_content}")
+                                st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")   
+                        else:
+                            with st.expander(f"EER Meeting: {metadata.get('date_time', 'Unknown date')}, {metadata.get('speaker_name', 'Unknown Speaker')}"):
+                                st.markdown(f"**Content:** {doc.page_content}")
+                                st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
+                                st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
+                                
+                            # Expander for Previous Chat (Past Memory)
+                if past_chat_context:
+                    with st.expander("Data from previous conversations with this LLM", expanded=False):
+                        for idx, doc in enumerate(past_chat_context, 1):
+                            with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
+                                st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
+                                st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
+                                  
+
     except Exception as e:
-            st.error(f"Error generating response: {e}")
+        st.error(f"Error generating response: {e}")
+        logger.error(f"Error during input handling: {e}")
