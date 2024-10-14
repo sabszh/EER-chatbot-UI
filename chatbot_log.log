@@ -373,3 +373,104 @@ The main goal of the EER group is not explicitly stated in the provided meeting 
 The group's discussions also touch on the idea of creating a story or narrative about their group and methods. Katrin Heimann mentioned that they have persons, methods, and an interest in art, but they need to figure out how to write themselves into the group and create a cohesive introduction (2022-04-21). This implies that the group is still in the process of defining their identity and purpose. Overall, while the main goal of the EER group is not clearly stated, it appears that they are focused on exploring the intersection of art and science and are still in the process of defining their direction and identity.
 
  "In previous conversations, Sabrina has discussed the EER project's methods and activities, and the group's relationship with technology. Testy has also asked about the main thing the group works on, and was told that the group is still trying to clarify their plan and goals. If you'd like to know more about the EER project, you might want to follow up with Sabrina or Testy."
+2024-10-14 11:48:15,231 - Use pytorch device_name: cpu
+2024-10-14 11:48:15,232 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:48:18,030 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:48:18,033 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:48:18,034 - Installing plugin inference into Pinecone
+2024-10-14 11:48:21,518 - User name set to: sabrina
+2024-10-14 11:48:25,128 - User Question: what is up?
+2024-10-14 11:48:25,131 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:48:25,134 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:48:25,134 - Installing plugin inference into Pinecone
+2024-10-14 11:48:37,973 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:48:37,976 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:48:37,976 - Installing plugin inference into Pinecone
+2024-10-14 11:48:49,703 - Pipeline generated response:  
+
+Hi Sabrina, it seems like the EER group has had a few meetings where the topic of "what's up" or "what's new" has been discussed. In a meeting on November 18, 2021 (2021-11-18), Andreas Roepstorff mentioned that there weren't a lot of updates, but did mention that Caston was working on the other drawing transmission, and Katz's website was coming online (2021-11-18). 
+
+In other meetings, the topic seems to be more about checking in with each other, such as Karsten Olsen's question "How are you?" on August 10, 2023 (2023-08-10), or a brief acknowledgement like Helene Nymann's "Up" on April 13, 2023 (2023-04-13). Peter Dalsgaard also mentioned someone requesting access on January 25, 2024 (2024-01-25), but it's not entirely clear what that's related to. If you have any specific questions about these meetings or topics, I'd be happy to try and help you further.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:48:49,708 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:48:49,708 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:48:49,709 - Installing plugin inference into Pinecone
+2024-10-14 11:48:51,488 - Upsert to Pinecone successful for session_id: eb5032de-3457-4743-a53e-1cb0bd1927e6
+2024-10-14 11:48:51,491 - AI Response:  
+
+Hi Sabrina, it seems like the EER group has had a few meetings where the topic of "what's up" or "what's new" has been discussed. In a meeting on November 18, 2021 (2021-11-18), Andreas Roepstorff mentioned that there weren't a lot of updates, but did mention that Caston was working on the other drawing transmission, and Katz's website was coming online (2021-11-18). 
+
+In other meetings, the topic seems to be more about checking in with each other, such as Karsten Olsen's question "How are you?" on August 10, 2023 (2023-08-10), or a brief acknowledgement like Helene Nymann's "Up" on April 13, 2023 (2023-04-13). Peter Dalsgaard also mentioned someone requesting access on January 25, 2024 (2024-01-25), but it's not entirely clear what that's related to. If you have any specific questions about these meetings or topics, I'd be happy to try and help you further.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:49:05,106 - User Question: tell me more
+2024-10-14 11:49:05,110 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:49:05,111 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:49:05,113 - Installing plugin inference into Pinecone
+2024-10-14 11:49:25,800 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:49:25,801 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:49:25,802 - Installing plugin inference into Pinecone
+2024-10-14 11:49:38,391 - Pipeline generated response:   It appears that the EER group members often use their meetings to discuss and share various topics, sometimes related to their projects and other times more personal or casual conversations. For instance, Katrin Heimann mentioned wanting to "show you" something on April 20, 2023 (2023-04-20), while Sophie Erlund said she could "teach you what life is" on May 4, 2023 (2023-05-04). It's also clear that the group values checking in with each other, as seen in Karsten Olsen's question "also talk about" on August 25, 2022 (2022-08-25), and Helene Nymann's brief acknowledgement on February 2, 2022 (2022-02-02). Andreas Roepstorff also mentioned "sadly enough" on October 19, 2023 (2023-10-19), which might indicate a more serious or somber tone in their discussion. If you'd like to know more about a specific topic or project, feel free to ask, and I'll do my best to provide more information.
+
+ Sabrina, in previous conversations, you've discussed the EER project's methods and activities, and explored human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:49:38,395 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:49:38,396 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:49:38,397 - Installing plugin inference into Pinecone
+2024-10-14 11:49:39,847 - Upsert to Pinecone successful for session_id: eb5032de-3457-4743-a53e-1cb0bd1927e6
+2024-10-14 11:49:39,850 - AI Response:   It appears that the EER group members often use their meetings to discuss and share various topics, sometimes related to their projects and other times more personal or casual conversations. For instance, Katrin Heimann mentioned wanting to "show you" something on April 20, 2023 (2023-04-20), while Sophie Erlund said she could "teach you what life is" on May 4, 2023 (2023-05-04). It's also clear that the group values checking in with each other, as seen in Karsten Olsen's question "also talk about" on August 25, 2022 (2022-08-25), and Helene Nymann's brief acknowledgement on February 2, 2022 (2022-02-02). Andreas Roepstorff also mentioned "sadly enough" on October 19, 2023 (2023-10-19), which might indicate a more serious or somber tone in their discussion. If you'd like to know more about a specific topic or project, feel free to ask, and I'll do my best to provide more information.
+
+ Sabrina, in previous conversations, you've discussed the EER project's methods and activities, and explored human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:51:16,954 - Use pytorch device_name: cpu
+2024-10-14 11:51:16,955 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:51:16,958 - Use pytorch device_name: cpu
+2024-10-14 11:51:16,959 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:51:21,006 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:51:21,006 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:51:21,306 - Installing plugin inference into Pinecone
+2024-10-14 11:51:22,202 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:51:22,204 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:51:22,204 - Installing plugin inference into Pinecone
+2024-10-14 11:51:30,166 - User name set to: sabrina
+2024-10-14 11:51:45,540 - User Question: what is microphenomlogy?
+2024-10-14 11:51:45,545 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:51:45,546 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:51:45,548 - Installing plugin inference into Pinecone
+2024-10-14 11:52:06,454 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:52:06,456 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:52:06,457 - Installing plugin inference into Pinecone
+2024-10-14 11:52:18,238 - Pipeline generated response:  Microphenomenology is a method that involves a detailed exploration of subjective experience, aiming to uncover embodied knowings. It is a process that helps individuals articulate subtle, hard-to-describe sensations and feelings, often by attending to tiny, fleeting moments of awareness (Source: 2023-04-27). This method is distinct from other approaches, as it focuses on staying with these sensations for a longer time, allowing for a deeper understanding of one's experience (Source: 2023-04-27). 
+
+In the context of the EER project, microphenomenology is seen as a valuable tool for interdisciplinary collaboration, particularly between art and science. It is considered a "how-to" approach, providing a framework for understanding how to integrate different methods and principles into a project (Source: 2023-05-04). By applying microphenomenology, researchers can gain insights into the embodied aspects of experience, which can be useful for a range of applications, from art-science collaborations to design research (Source: 2022-04-21).
+
+ Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. She also discussed human-AI interaction projects and was told about Peter Dalsgaard's work with AI agents that facilitate human collaboration. Additionally, Sabrina mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the EER project, you might want to follow up with Sabrina or Peter Dalsgaard.
+2024-10-14 11:52:18,241 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:52:18,242 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:52:18,243 - Installing plugin inference into Pinecone
+2024-10-14 11:52:19,650 - Upsert to Pinecone successful for session_id: d715d5d7-ff7a-47e7-b797-e61311d51eac
+2024-10-14 11:52:19,655 - AI Response:  Microphenomenology is a method that involves a detailed exploration of subjective experience, aiming to uncover embodied knowings. It is a process that helps individuals articulate subtle, hard-to-describe sensations and feelings, often by attending to tiny, fleeting moments of awareness (Source: 2023-04-27). This method is distinct from other approaches, as it focuses on staying with these sensations for a longer time, allowing for a deeper understanding of one's experience (Source: 2023-04-27). 
+
+In the context of the EER project, microphenomenology is seen as a valuable tool for interdisciplinary collaboration, particularly between art and science. It is considered a "how-to" approach, providing a framework for understanding how to integrate different methods and principles into a project (Source: 2023-05-04). By applying microphenomenology, researchers can gain insights into the embodied aspects of experience, which can be useful for a range of applications, from art-science collaborations to design research (Source: 2022-04-21).
+
+ Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. She also discussed human-AI interaction projects and was told about Peter Dalsgaard's work with AI agents that facilitate human collaboration. Additionally, Sabrina mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the EER project, you might want to follow up with Sabrina or Peter Dalsgaard.
+2024-10-14 11:52:38,389 - User Question: what more about it can you tell me ?
+2024-10-14 11:52:38,396 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:52:38,398 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:52:38,399 - Installing plugin inference into Pinecone
+2024-10-14 11:53:02,641 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:53:02,648 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:53:02,649 - Installing plugin inference into Pinecone
+2024-10-14 11:53:18,914 - Pipeline generated response:  
+
+Based on the meeting transcripts, it appears that the EER project team is actively discussing and exploring new ideas, with some members sharing their thoughts and insights on various topics. For instance, Helene Nymann mentions that there might be something new to explore, but doesn't want to give a definite answer (2021-11-11). Karsten Olsen shares that there's not much new to report, but acknowledges that there's still progress being made (2021-11-18). Sophie Erlund asks about a new thing on the screen, indicating that the team is working with visual materials (2022-08-25). Another excerpt from Sophie Erlund shows her trying to figure out something, highlighting the team's collaborative and inquiring approach (2021-11-18). Lastly, Helene Nymann asks about an update, showing that the team is staying informed about each other's work (2023-03-16). These snippets provide a glimpse into the team's dynamic and their ongoing efforts to explore and understand new concepts.
+
+ Sabrina, in your previous conversations, you have shown interest in the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:53:18,918 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:53:18,919 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:53:18,920 - Installing plugin inference into Pinecone
+2024-10-14 11:53:20,668 - Upsert to Pinecone successful for session_id: d715d5d7-ff7a-47e7-b797-e61311d51eac
+2024-10-14 11:53:20,672 - AI Response:  
+
+Based on the meeting transcripts, it appears that the EER project team is actively discussing and exploring new ideas, with some members sharing their thoughts and insights on various topics. For instance, Helene Nymann mentions that there might be something new to explore, but doesn't want to give a definite answer (2021-11-11). Karsten Olsen shares that there's not much new to report, but acknowledges that there's still progress being made (2021-11-18). Sophie Erlund asks about a new thing on the screen, indicating that the team is working with visual materials (2022-08-25). Another excerpt from Sophie Erlund shows her trying to figure out something, highlighting the team's collaborative and inquiring approach (2021-11-18). Lastly, Helene Nymann asks about an update, showing that the team is staying informed about each other's work (2023-03-16). These snippets provide a glimpse into the team's dynamic and their ongoing efforts to explore and understand new concepts.
+
+ Sabrina, in your previous conversations, you have shown interest in the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.

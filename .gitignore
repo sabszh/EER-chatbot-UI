@@ -6,8 +6,8 @@ data/reformatted_transcripts
 data/raw_transcripts
 .env
 .venv
-src/__pycache__
 requirements_ts.txt
 test
 src/__pycache__
 chatbot_log.log
+boteer.zip
