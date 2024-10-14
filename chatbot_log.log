@@ -88,3 +88,288 @@ Hans, playfulness was indeed an aspect of the EER project, as seen in the variou
 Moreover, in the "EER Sharing Perspectives at Tate Modern" PDF (Page 16), participants highlighted their interest in balancing a certain tension related to a playful experience, suggesting that they were striving for new and surprising experiences while also wanting to feel comfortable. This emphasis on playfulness and comfort suggests that the EER project encouraged participants to engage with the activities in a lighthearted and experimental manner. (Source: EER Sharing Perspectives at Tate Modern.pdf, Page 16)
 
  Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. Zaki asked about board games and was told that the transcripts do not mention board games, but Amos Bokonen Blanton mentioned an "adventure playground". Sabrina also discussed the EER project's focus on nature and was told about the workshop "EER and the More-than-human" and the artwork "Nature is an event that never stops". If you'd like to know more about playful activities or the EER project in general, you might want to follow up with Sabrina, Amos Blanton, or Peter Dalsgaard.
+2024-10-08 16:47:27,387 - Use pytorch device_name: cpu
+2024-10-08 16:47:27,388 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-08 16:47:38,939 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-08 16:47:38,940 - Looking for plugins in pinecone_plugins.inference
+2024-10-08 16:47:39,023 - Installing plugin inference into Pinecone
+2024-10-08 16:47:39,173 - Chatbot initialized successfully
+2024-10-08 16:47:58,926 - User name set to: Jack
+2024-10-08 16:48:12,715 - User Question: what are scores?
+2024-10-08 16:48:12,721 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-08 16:48:12,722 - Looking for plugins in pinecone_plugins.inference
+2024-10-08 16:48:12,723 - Installing plugin inference into Pinecone
+2024-10-08 16:48:27,568 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-08 16:48:27,569 - Looking for plugins in pinecone_plugins.inference
+2024-10-08 16:48:27,570 - Installing plugin inference into Pinecone
+2024-10-08 16:48:37,025 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-08 16:48:37,026 - Looking for plugins in pinecone_plugins.inference
+2024-10-08 16:48:37,026 - Installing plugin inference into Pinecone
+2024-10-08 16:48:38,310 - AI Response:  
+Hi Jack, within the context of the Experimenting Experiencing Reflecting (EER) Project, scores refer to frameworks for improvisation and exploration that serve as a set of shared agreements and tools for communication and feedback among participants (EER Performative scores.pdf, p.2). They can take various forms, such as a set of instructions or a guiding framework, and are designed to facilitate a shared exploration of bodies and space.
+
+In the context of the EER project, scores are not rigid rules, but rather suggestions that invite participants to bring themselves and their minds into a particular relationship with the world around them (Meeting Transcript Excerpt, 2022-02-02). They can be used to focus attention, prompt reflection, and create a space for exploration and discovery. For example, a score might involve a gentle, slow build-up of activities that encourage participants to break their usual inhibitions and create new connections with others and the space around them (EER Sharing Perspectives at Tate Modern.pdf, p.5).
+Best, [AI Assistant]
+
+ Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. If you'd like to know more about the EER project, you might want to follow up with Sabrina or Peter Dalsgaard.
+2024-10-14 11:01:18,437 - Use pytorch device_name: cpu
+2024-10-14 11:01:18,438 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:01:37,883 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:01:37,887 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:01:38,250 - Installing plugin inference into Pinecone
+2024-10-14 11:03:45,297 - User name set to: Sabrina
+2024-10-14 11:04:04,794 - User Question: i want to ask what interesting things have been discussed?
+2024-10-14 11:04:04,797 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:04:04,798 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:04:04,798 - Installing plugin inference into Pinecone
+2024-10-14 11:04:13,706 - Error generating response: 'chatbot' object has no attribute 'format_context'
+2024-10-14 11:11:18,333 - Use pytorch device_name: cpu
+2024-10-14 11:11:18,334 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:11:18,335 - Use pytorch device_name: cpu
+2024-10-14 11:11:18,335 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:11:21,854 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:11:21,855 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:11:21,858 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:11:21,859 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:11:21,963 - Installing plugin inference into Pinecone
+2024-10-14 11:11:21,963 - Installing plugin inference into Pinecone
+2024-10-14 11:17:56,351 - User name set to: sabrina
+2024-10-14 11:18:03,881 - User Question: what are some interesting things that the group has discussed?
+2024-10-14 11:18:03,885 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:18:03,888 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:18:03,888 - Installing plugin inference into Pinecone
+2024-10-14 11:18:22,064 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:18:22,066 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:18:22,066 - Installing plugin inference into Pinecone
+2024-10-14 11:18:33,422 - Pipeline generated response:  
+The EER group has discussed various interesting topics, including exploring new aspects of AI and sound, as well as examining current projects and sharing experiences. For instance, Sophie Erlund suggested looking at current ER projects and having shorter presentations, similar to what was done in Copenhagen (2022-12-08). The group also touched upon the idea of sharing updates on their work, such as the solar critter update, and exploring themes like collaboration, sensitivity, and balance in group dynamics (2022-03-10).
+
+The group has also discussed the importance of developing skills like being tentative yet assertive, and being aware of one's presence in a group (2022-03-10). Additionally, they have talked about the possibility of joining a conference and wondering what topics would fit into the conference's broad or specific themes (2024-01-18). These discussions demonstrate the group's interest in exploring new ideas, sharing knowledge, and reflecting on their experiences and skills.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." Hans also asked about the group's discussions and was told that they often involve sharing perspectives and experiences, with participants like Karsten Olsen and Helene Nymann contributing their thoughts and ideas. If you'd like to know more about the EER project, you might want to follow up with Hans or Peter Dalsgaard.
+2024-10-14 11:18:33,427 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:18:33,428 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:18:33,428 - Installing plugin inference into Pinecone
+2024-10-14 11:18:36,077 - Upsert to Pinecone successful for session_id: 73f5f99f-d48b-4069-8dbe-88904f8ff9b4
+2024-10-14 11:18:36,080 - AI Response:  
+The EER group has discussed various interesting topics, including exploring new aspects of AI and sound, as well as examining current projects and sharing experiences. For instance, Sophie Erlund suggested looking at current ER projects and having shorter presentations, similar to what was done in Copenhagen (2022-12-08). The group also touched upon the idea of sharing updates on their work, such as the solar critter update, and exploring themes like collaboration, sensitivity, and balance in group dynamics (2022-03-10).
+
+The group has also discussed the importance of developing skills like being tentative yet assertive, and being aware of one's presence in a group (2022-03-10). Additionally, they have talked about the possibility of joining a conference and wondering what topics would fit into the conference's broad or specific themes (2024-01-18). These discussions demonstrate the group's interest in exploring new ideas, sharing knowledge, and reflecting on their experiences and skills.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." Hans also asked about the group's discussions and was told that they often involve sharing perspectives and experiences, with participants like Karsten Olsen and Helene Nymann contributing their thoughts and ideas. If you'd like to know more about the EER project, you might want to follow up with Hans or Peter Dalsgaard.
+2024-10-14 11:24:12,963 - User Question: what else that is interesting can you tell me?
+2024-10-14 11:24:12,971 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:24:12,973 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:24:12,973 - Installing plugin inference into Pinecone
+2024-10-14 11:24:25,898 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:24:25,899 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:24:25,899 - Installing plugin inference into Pinecone
+2024-10-14 11:24:38,093 - Pipeline generated response:  
+
+Hi Sabrina, I can tell you that Karsten Olsen mentioned not having much new stuff to share in a meeting (2021-11-18). However, Sophie Erlund expressed interest in hearing updates on the project, specifically referencing Anna's frequent mentions of what she saw at the percent castle in Copenhagen (2021-11-11). Additionally, Andreas Roepstorff found something very interesting, although the context is not specified (2023-05-04). Joseph Dumit also mentioned a fascinating conversation between a philosopher, a witch, and a woman who writes about mental illness and witchcraft in Denmark (2021-09-23). These snippets give you a glimpse into the group's discussions and interests. If you'd like to explore more, I can try to find related information in the EER project's documents.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:24:38,096 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:24:38,097 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:24:38,097 - Installing plugin inference into Pinecone
+2024-10-14 11:24:39,766 - Upsert to Pinecone successful for session_id: 73f5f99f-d48b-4069-8dbe-88904f8ff9b4
+2024-10-14 11:24:39,768 - AI Response:  
+
+Hi Sabrina, I can tell you that Karsten Olsen mentioned not having much new stuff to share in a meeting (2021-11-18). However, Sophie Erlund expressed interest in hearing updates on the project, specifically referencing Anna's frequent mentions of what she saw at the percent castle in Copenhagen (2021-11-11). Additionally, Andreas Roepstorff found something very interesting, although the context is not specified (2023-05-04). Joseph Dumit also mentioned a fascinating conversation between a philosopher, a witch, and a woman who writes about mental illness and witchcraft in Denmark (2021-09-23). These snippets give you a glimpse into the group's discussions and interests. If you'd like to explore more, I can try to find related information in the EER project's documents.
+
+ Sabrina, you previously asked about the EER project's methods and activities, and discussed human-AI interaction projects, including Peter Dalsgaard's work with AI agents that facilitate human collaboration. You also mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the group's discussions and how they explore different ideas and topics, you might want to follow up with Hans or Peter Dalsgaard. Additionally, you may want to reach out to Karsten Olsen, who has contributed to the discussions on various topics, including the balance between individual contribution and collective presence.
+2024-10-14 11:26:36,565 - Use pytorch device_name: cpu
+2024-10-14 11:26:36,566 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:26:36,568 - Use pytorch device_name: cpu
+2024-10-14 11:26:36,568 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:26:40,049 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:26:40,052 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:26:40,159 - Installing plugin inference into Pinecone
+2024-10-14 11:26:40,214 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:26:40,216 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:26:40,216 - Installing plugin inference into Pinecone
+2024-10-14 11:28:30,351 - Use pytorch device_name: cpu
+2024-10-14 11:28:30,352 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:28:30,353 - Use pytorch device_name: cpu
+2024-10-14 11:28:30,354 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:28:30,358 - Use pytorch device_name: cpu
+2024-10-14 11:28:30,358 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:28:32,610 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:28:32,613 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:28:32,637 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:28:32,640 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:28:32,674 - Installing plugin inference into Pinecone
+2024-10-14 11:28:32,675 - Installing plugin inference into Pinecone
+2024-10-14 11:28:34,145 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:28:34,146 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:28:34,146 - Installing plugin inference into Pinecone
+2024-10-14 11:29:07,548 - Use pytorch device_name: cpu
+2024-10-14 11:29:07,549 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:07,551 - Use pytorch device_name: cpu
+2024-10-14 11:29:07,551 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:07,557 - Use pytorch device_name: cpu
+2024-10-14 11:29:07,558 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:07,561 - Use pytorch device_name: cpu
+2024-10-14 11:29:07,562 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:09,722 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:09,724 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:09,887 - Installing plugin inference into Pinecone
+2024-10-14 11:29:10,012 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:10,014 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:10,014 - Installing plugin inference into Pinecone
+2024-10-14 11:29:10,497 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:10,498 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:10,498 - Installing plugin inference into Pinecone
+2024-10-14 11:29:10,879 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:10,881 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:10,882 - Installing plugin inference into Pinecone
+2024-10-14 11:29:35,996 - Use pytorch device_name: cpu
+2024-10-14 11:29:35,996 - Use pytorch device_name: cpu
+2024-10-14 11:29:35,996 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:35,996 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:36,002 - Use pytorch device_name: cpu
+2024-10-14 11:29:36,003 - Use pytorch device_name: cpu
+2024-10-14 11:29:36,004 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:36,005 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:29:38,263 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:38,264 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:38,285 - Installing plugin inference into Pinecone
+2024-10-14 11:29:40,498 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:40,499 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:40,500 - Installing plugin inference into Pinecone
+2024-10-14 11:29:40,691 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:40,692 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:40,693 - Installing plugin inference into Pinecone
+2024-10-14 11:29:40,875 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:29:40,877 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:29:40,878 - Installing plugin inference into Pinecone
+2024-10-14 11:30:04,109 - Use pytorch device_name: cpu
+2024-10-14 11:30:04,109 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:04,115 - Use pytorch device_name: cpu
+2024-10-14 11:30:04,115 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:04,116 - Use pytorch device_name: cpu
+2024-10-14 11:30:04,116 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:04,130 - Use pytorch device_name: cpu
+2024-10-14 11:30:04,131 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:04,132 - Use pytorch device_name: cpu
+2024-10-14 11:30:04,132 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:06,818 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:06,821 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:06,847 - Installing plugin inference into Pinecone
+2024-10-14 11:30:07,260 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:07,262 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:07,263 - Installing plugin inference into Pinecone
+2024-10-14 11:30:07,370 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:07,371 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:07,371 - Installing plugin inference into Pinecone
+2024-10-14 11:30:07,779 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:07,780 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:07,780 - Installing plugin inference into Pinecone
+2024-10-14 11:30:09,449 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:09,451 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:09,451 - Installing plugin inference into Pinecone
+2024-10-14 11:30:36,891 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,892 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:36,903 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,905 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:36,909 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,909 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:36,912 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,913 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:36,915 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,917 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:36,923 - Use pytorch device_name: cpu
+2024-10-14 11:30:36,924 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:30:40,657 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:40,665 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:40,788 - Installing plugin inference into Pinecone
+2024-10-14 11:30:40,852 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:40,855 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:40,856 - Installing plugin inference into Pinecone
+2024-10-14 11:30:41,348 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:41,350 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:41,350 - Installing plugin inference into Pinecone
+2024-10-14 11:30:42,595 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:42,600 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:42,602 - Installing plugin inference into Pinecone
+2024-10-14 11:30:42,615 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:42,616 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:42,618 - Installing plugin inference into Pinecone
+2024-10-14 11:30:42,753 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:30:42,756 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:30:42,757 - Installing plugin inference into Pinecone
+2024-10-14 11:31:10,461 - Use pytorch device_name: cpu
+2024-10-14 11:31:10,463 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:31:10,465 - Use pytorch device_name: cpu
+2024-10-14 11:31:10,467 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:31:12,945 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:31:12,946 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:31:13,003 - Installing plugin inference into Pinecone
+2024-10-14 11:31:14,248 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:31:14,250 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:31:14,250 - Installing plugin inference into Pinecone
+2024-10-14 11:31:17,597 - User name set to: Sabrina
+2024-10-14 11:31:33,990 - User Question: i want to know how the group's relationship to technolgy is
+2024-10-14 11:31:33,992 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:31:33,996 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:31:33,999 - Installing plugin inference into Pinecone
+2024-10-14 11:31:56,703 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:31:56,704 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:31:56,704 - Installing plugin inference into Pinecone
+2024-10-14 11:32:07,257 - Pipeline generated response:  
+
+Based on the provided data, it appears that the EER group has a diverse and exploratory relationship with technology. In Excerpt 2 from the PDF document "EER Drawing with the Sun," the idea of attaching mirrors to machines to create a new domain of interactivity between them is discussed. This suggests that the group is interested in experimenting with technology to create new forms of communication and interaction. Additionally, in Excerpt 4, Andreas Roepstorff mentions an interactive audiovisual exhibition that challenges the viewer to question their choices and impact on the environment, which implies a critical and reflective approach to technology.
+
+The group's relationship with technology also seems to be influenced by their artistic and scientific backgrounds. In Excerpt 1, Karsten Olsen mentions that the group is doing mostly audio-based work and would like to "think with" the EER group. This suggests a collaborative and interdisciplinary approach to technology. Furthermore, in Excerpt 5, Peter Dalsgaard describes a fellowship program where people from different backgrounds, including medieval historians, economists, and molecular biologists, work together and share their perspectives. This diverse and interdisciplinary environment may shape the group's relationship with technology and encourage them to approach it in innovative and creative ways. (2021-05-28, website page: "EER Drawing with the Sun.pdf") (2023-08-10, transcript) (2023-10-05, transcript)
+
+ Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. She also discussed human-AI interaction projects and was told about Peter Dalsgaard's work with AI agents that facilitate human collaboration. Additionally, Sabrina mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the EER project, you might want to follow up with Sabrina or Peter Dalsgaard.
+2024-10-14 11:32:07,264 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:07,266 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:07,266 - Installing plugin inference into Pinecone
+2024-10-14 11:32:09,114 - Upsert to Pinecone successful for session_id: b43af927-05c4-4441-bdde-020ef72ad7d8
+2024-10-14 11:32:09,118 - AI Response:  
+
+Based on the provided data, it appears that the EER group has a diverse and exploratory relationship with technology. In Excerpt 2 from the PDF document "EER Drawing with the Sun," the idea of attaching mirrors to machines to create a new domain of interactivity between them is discussed. This suggests that the group is interested in experimenting with technology to create new forms of communication and interaction. Additionally, in Excerpt 4, Andreas Roepstorff mentions an interactive audiovisual exhibition that challenges the viewer to question their choices and impact on the environment, which implies a critical and reflective approach to technology.
+
+The group's relationship with technology also seems to be influenced by their artistic and scientific backgrounds. In Excerpt 1, Karsten Olsen mentions that the group is doing mostly audio-based work and would like to "think with" the EER group. This suggests a collaborative and interdisciplinary approach to technology. Furthermore, in Excerpt 5, Peter Dalsgaard describes a fellowship program where people from different backgrounds, including medieval historians, economists, and molecular biologists, work together and share their perspectives. This diverse and interdisciplinary environment may shape the group's relationship with technology and encourage them to approach it in innovative and creative ways. (2021-05-28, website page: "EER Drawing with the Sun.pdf") (2023-08-10, transcript) (2023-10-05, transcript)
+
+ Sabrina previously asked about the EER project's methods and activities, and the LLM mentioned the use of microfilament illogical analyses, setting up experiments followed by micro phenomenological interviews, and studying design ideas across different timescales. She also discussed human-AI interaction projects and was told about Peter Dalsgaard's work with AI agents that facilitate human collaboration. Additionally, Sabrina mentioned that the group organized a workshop called "EER and the More-than-human" and created artworks such as "Nature is an event that never stops." If you'd like to know more about the EER project, you might want to follow up with Sabrina or Peter Dalsgaard.
+2024-10-14 11:32:17,087 - Use pytorch device_name: cpu
+2024-10-14 11:32:17,089 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:32:17,089 - Use pytorch device_name: cpu
+2024-10-14 11:32:17,090 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:32:17,090 - Use pytorch device_name: cpu
+2024-10-14 11:32:17,091 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-10-14 11:32:19,325 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:19,326 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:19,346 - Installing plugin inference into Pinecone
+2024-10-14 11:32:19,633 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:19,635 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:19,635 - Installing plugin inference into Pinecone
+2024-10-14 11:32:19,753 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:19,755 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:19,756 - Installing plugin inference into Pinecone
+2024-10-14 11:32:27,331 - User name set to: Sabrina
+2024-10-14 11:32:35,302 - User Question: what is the main goal of the group?
+2024-10-14 11:32:35,305 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:35,310 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:35,313 - Installing plugin inference into Pinecone
+2024-10-14 11:32:51,953 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:32:51,955 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:32:51,955 - Installing plugin inference into Pinecone
+2024-10-14 11:33:00,610 - Pipeline generated response:  
+The main goal of the EER group is not explicitly stated in the provided meeting transcripts. However, based on the discussions, it appears that the group is focused on exploring the connections between art and science, and they are still in the process of defining their ambition and direction. In a meeting on November 18, 2021, Andreas Løppenthin mentioned that the group used to have a project with different ideas, and he suggested checking in with the group to see what their current ambition and hope are (2021-11-18). This suggests that the group's goals and objectives are still evolving.
+
+The group's discussions also touch on the idea of creating a story or narrative about their group and methods. Katrin Heimann mentioned that they have persons, methods, and an interest in art, but they need to figure out how to write themselves into the group and create a cohesive introduction (2022-04-21). This implies that the group is still in the process of defining their identity and purpose. Overall, while the main goal of the EER group is not clearly stated, it appears that they are focused on exploring the intersection of art and science and are still in the process of defining their direction and identity.
+
+ "In previous conversations, Sabrina has discussed the EER project's methods and activities, and the group's relationship with technology. Testy has also asked about the main thing the group works on, and was told that the group is still trying to clarify their plan and goals. If you'd like to know more about the EER project, you might want to follow up with Sabrina or Testy."
+2024-10-14 11:33:00,614 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-10-14 11:33:00,614 - Looking for plugins in pinecone_plugins.inference
+2024-10-14 11:33:00,615 - Installing plugin inference into Pinecone
+2024-10-14 11:33:02,050 - Upsert to Pinecone successful for session_id: e7ac89e3-9fef-4d52-a7cb-4fb1f2b0f362
+2024-10-14 11:33:02,054 - AI Response:  
+The main goal of the EER group is not explicitly stated in the provided meeting transcripts. However, based on the discussions, it appears that the group is focused on exploring the connections between art and science, and they are still in the process of defining their ambition and direction. In a meeting on November 18, 2021, Andreas Løppenthin mentioned that the group used to have a project with different ideas, and he suggested checking in with the group to see what their current ambition and hope are (2021-11-18). This suggests that the group's goals and objectives are still evolving.
+
+The group's discussions also touch on the idea of creating a story or narrative about their group and methods. Katrin Heimann mentioned that they have persons, methods, and an interest in art, but they need to figure out how to write themselves into the group and create a cohesive introduction (2022-04-21). This implies that the group is still in the process of defining their identity and purpose. Overall, while the main goal of the EER group is not clearly stated, it appears that they are focused on exploring the intersection of art and science and are still in the process of defining their direction and identity.
+
+ "In previous conversations, Sabrina has discussed the EER project's methods and activities, and the group's relationship with technology. Testy has also asked about the main thing the group works on, and was told that the group is still trying to clarify their plan and goals. If you'd like to know more about the EER project, you might want to follow up with Sabrina or Testy."
