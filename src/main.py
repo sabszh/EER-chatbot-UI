@@ -7,6 +7,7 @@ from data_chunking import datachunk
 from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpoint as HuggingFaceHub
 from langchain_community.vectorstores.pinecone import Pinecone
 from pinecone import Pinecone as pc
+import pinecone
 
 logger = logging.getLogger(__name__)
 
@@ -280,3 +281,22 @@ class chatbot:
             "source_data": source_data,
             "past_chat_context": past_chat_context
         }
+        
+    @staticmethod
+    def query_summaries(timestamp):
+        # Set up pinecone client
+        pineclient = pinecone.Pinecone(api_key=os.environ.get("2_PINECONE_API_KEY"))
+        
+        # Connect to the index
+        index_name = "eer-meeting-summaries"
+        index = pineclient.Index(index_name)
+        
+        # Convert to datetime object
+        date_object = datetime.strptime(timestamp, "%Y-%m-%d")
+
+        # Get the Unix timestamp
+        unix_timestamp = int(date_object.timestamp())
+        
+        summary = index.query(vector = [1]*768, top_k=1,filter={"date_unix": {"$lte": unix_timestamp}}, include_metadata=True)
+        
+        return summary

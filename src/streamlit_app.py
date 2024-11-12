@@ -4,6 +4,7 @@ from langchain_community.chat_message_histories import StreamlitChatMessageHisto
 import uuid
 from main import chatbot
 import streamlit_nested_layout
+import datetime
 
 # Set up logging to only log user input, AI responses, and errors
 logging.basicConfig(
@@ -24,6 +25,7 @@ if "messages" not in st.session_state:
 if "first_question" not in st.session_state:
     st.session_state.first_question = ""
 
+# Functiion to initialize the chatbot
 def initialize_bot():
     try:
         if "bot" not in st.session_state or st.session_state.bot is None:
@@ -34,6 +36,7 @@ def initialize_bot():
 
 initialize_bot()
 
+# Setting up the session state variables
 if "chat_data" not in st.session_state:
     st.session_state.chat_data = []
 
@@ -46,6 +49,7 @@ if "session_id" not in st.session_state:
 if "history" not in st.session_state:
     st.session_state.history = StreamlitChatMessageHistory()
 
+# Function to ask the user for their name
 @st.dialog("Please enter your name:", width="small")
 def ask_name():
     user_name = st.text_input(label="Name", label_visibility="collapsed", placeholder="Your name")
@@ -58,6 +62,7 @@ def ask_name():
 if st.session_state.user_name is None:
     ask_name()
 
+# Function to generate a response from the AI
 def generate_response(input_text):
     bot = st.session_state.get("bot")
     chat_history = "\n".join([
@@ -73,11 +78,31 @@ def generate_response(input_text):
         st.error(f"Error generating response: {e}")
         logger.error(f"Error generating response: {e}")
         return {}
+    
+# Function to query the meeting summary for a given date
+def query_meeting_summary(datestamp):
+    bot = st.session_state.get("bot")
+    
+    # Convert datestamp to string
+    datestamp_str = datestamp.strftime("%Y-%m-%d")
+    
+    result = bot.query_summaries(datestamp_str)
+    
+    date = result["matches"][0]["metadata"]["date"]
+    speakers = ' and '.join([', '.join(result["matches"][0]["metadata"]["speakers"][:-1]), result["matches"][0]["metadata"]["speakers"][-1]]) if len(result["matches"][0]["metadata"]["speakers"]) > 1 else result["matches"][0]["metadata"]["speakers"][0]
+    summary = result["matches"][0]["metadata"]["summary"]
+    
+    return f"**Meeting date:** {date}. \n\n **Speaker list:** {speakers}. \n\n  **Meeting summary:**{summary}"
 
 st.title(f"🤖 EER Transcript Explorer Bot")
 st.write("""
     This is a chatbot with access to meeting transcripts from the EER project (May 2021 - January 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
 """)
+
+with st.expander("Fetch a meeting summary", expanded=False):
+    datestamp = st.date_input("Meeting summary date", datetime.date(2024, 1, 30))
+    summary = query_meeting_summary(datestamp)
+    st.info(summary, icon="📄")
 
 chat_container = st.container()
 
