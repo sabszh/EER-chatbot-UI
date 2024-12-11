@@ -30,6 +30,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot designed 
 
 
 **For a full code walkthrough, check the [src\RAG_tutorial.ipynb](https://github.com/sabszh/EER-chatbot-UI/blob/main/src/RAG_tutorial.ipynb).**
+
 ---
 
 ## File Structure
