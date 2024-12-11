@@ -8,111 +8,163 @@
     <img src="https://img.shields.io/github/last-commit/sabszh/EER-chatbot-UI?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
     <img src="https://img.shields.io/github/languages/top/sabszh/EER-chatbot-UI?style=flat&color=0080ff" alt="repo-top-language">
     <img src="https://img.shields.io/github/languages/count/sabszh/EER-chatbot-UI?style=flat&color=0080ff" alt="repo-language-count">
-<p>
+</p>
 <p align="left">
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white" alt="Streamlit">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/Pinecone-005BBB.svg?style=flat&logo=Python&logoColor=white" alt="Pinecone">
+	<img src="https://img.shields.io/badge/HuggingFace-F79927.svg?style=flat&logo=HuggingFace&logoColor=white" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/Otter-005BBB.svg?style=flat&logo=Python&logoColor=white" alt="Otter">
 </p>
 <hr>
 
-##  Overview
+## Overview
 
-This project implements a chatbot utilizing retrieval mechanisms (RAG) to serve as a question-answering assistant. It leverages excerpts from transcripts of Zoom meetings pertaining to the [EER](https://www.eer.info/) project.
-
-NB: For timescale version of app, see here: https://github.com/sabszh/EER-TIMEBOT
-
----
-
-##  Repository Structure
-
-```sh
-└── /
-
-    ├── README.md
-    ├── requirements.txt
-    └── src
-        ├── data_chunking.py
-        ├── main.py
-        ├── reformatting_data.py
-        ├── streamlit_app.py
-        └── timescale
-```
+This project implements a Retrieval-Augmented Generation (RAG) chatbot designed to assist with questions and exploration of meeting transcripts, summaries, and project data from the [EER](https://www.eer.info/) project. The chatbot integrates:
+- **Document Retrieval**: Retrieves data from meeting transcripts, summaries, and related documents.
+- **Conversation History**: References from past chatbot interactions.
+- **LLM-Powered Summaries**: Uses a Large Language Model (LLM) to generate summaries of transcripts.
 
 ---
 
-##  Modules
+## File Structure
 
-<details closed><summary>.</summary>
-
-| File                                                                                      | Summary                                                                                                                                                                                        |
-| ---                                                                                       | ---                                                                                                                                                                                            |
-| [requirements.txt](https://github.com/sabszh/EER-chatbot-UI/blob/master/requirements.txt) | This `requirements.txt` ensures the application's compatibility and functionality by defining necessary Python packages for the data processing and web application modules of the repository. |                                 |
-
-</details>
-
-<details closed><summary>src</summary>
-
-| File                                                                                                  | Summary                                                                                                                                                                                                          |
-| ---                                                                                                   | ---                                                                                                                                                                                                              |
-| [main.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/main.py)                           | The `main.py` within this repository sets up a chatbot leveraging Pinecone index and HuggingFace embeddings for document search, with custom prompt templates for the EER Project's inquiries. |
-| [streamlit_app.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/streamlit_app.py)         | Core interface of the chatbot, allowing user to select AI models and adjust interaction parameters within a Streamlit-based web app.                                                                               |
-| [reformatting_data.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/reformatting_data.py) | The script `reformatting_data.py` within the repo transforms raw transcript files into a structured CSV format, handling various timestamp styles and creating a standardized naming and storage schema.         |
-| [data_chunking.py](https://github.com/sabszh/EER-chatbot-UI/blob/master/src/data_chunking.py)         | The data_chunking.py module is responsible for extracting and preparing text data from various document types within a document processing pipeline.                                                             |
-
-</details>
+```
+Project.
+├── .venv                           # Virtual environment directory
+├── data                            # Directory for storing input data (transcripts PDFs)
+├── src                             # Source code directory
+│    ├── preprocessimg
+│    │    ├── reformatting_data.py  # Transcript reformatting scripts
+│    │    └──data_chunking.py       # Data processing and chunking logic                
+│    ├── streamlit_rag_chatbot      # Directory for TimescaleDB integration
+│    │    ├── main.py               # Core chatbot pipeline
+│    │    └── streamlit_app.py      # Streamlit app for the chatbot  
+│    └── upserting_transcripts      # Directory for managing TimescaleDB integration
+│         ├── a2t.py                # Incomplete script for the pipeline; currently focuses on adding transcripts to Pinecone
+│         └── streamlit_a2t.py      # Streamlit app interface for managing the pipeline
+├── .env                            # Environment variables (API keys for HuggingFace and Pinecone)
+├── .gitignore                      # Excluded files and directories
+├── Dockerfile                      # Docker configuration for deploying the app
+├── LICENSE.txt                     # License for the project
+├── README.md                       # Readme file
+└── requirements.txt                # Dependencies for the project
+ 
+```
 
 ---
 
-##  Getting Started
+## Modules
 
-***Requirements***
+### Core Components
 
-Ensure you have the following dependencies installed on your system:
+| File                                   | Summary                                                                                                                                                     |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`src/streamlit_rag_chatbot/main.py`**                     | Sets up the chatbot pipeline, integrating document retrieval with Pinecone and HuggingFace embeddings for advanced querying and summarization.              |
+| **`src/streamlit_rag_chatbot/streamlit_app.py`**            | Implements the Streamlit-based user interface, enabling interaction with the chatbot and meeting summaries and referenced data.           |
+| **`src/preprocessing/reformatting_data.py`**        | Automates cleaning and reformatting raw transcript files into a structured format (CSV), making them suitable for further processing.                      |
+| **`src/preprocessing/data_chunking.py`**            | Splits transcripts into manageable chunks and prepares them for storage in the vector store with metadata enrichment.                                       |
 
-* **Python**: `version 3.x.x`
-* **API Keys**: Obtain API keys for Hugging Face and Pinecone.
+---
 
-###  Installation
+## Getting Started
 
-1. Clone the  repository:
+### Prerequisites
 
-```sh
-git clone https://github.com/sabszh/EER-chatbot-UI/
+- Python 3.x.x
+- API keys for:
+  - HuggingFace
+  - Pinecone
+
+### Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/sabszh/EER-chatbot-UI/
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd EER-chatbot-UI
+    ```
+
+3. **Set up a virtual environment** (optional but recommended):
+
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+    ```
+
+4. **Install dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Configure environment variables**:
+    Create a `.env` file in the root directory and add your API keys:
+
+    ```plaintext
+    HUGGINGFACE_API_KEY=your_huggingface_api_key
+    PINECONE_API_KEY=your_pinecone_api_key
+    ```
+
+### Running the Application
+
+#### Using the Streamlit App
+
+To launch the Streamlit app:
+
+```bash
+streamlit run src/streamlit_rag_chatbot/streamlit_app.py
 ```
 
-2. Change to the project directory:
+#### Using Docker
 
-```sh
-cd 
-```
+1. **Build the Docker image**:
+    ```bash
+    docker build -t eer-chatbot .
+    ```
 
-3. Install the dependencies:
+2. **Run the Docker container**:
+    ```bash
+    docker run -p 8501:8501 eer-chatbot
+    ```
 
-```sh
-pip install -r requirements.txt
-```
+---
 
-4. Create a .env file in the root directory of the project and add the following:
+## Features
 
-```sh
-HUGGINGFACE_API_KEY=your_huggingface_api_key
-PINECONE_API_KEY=your_pinecone_api_key
-TIMESCALE_API_KEY=your_timescale_api_key
-```
+### **Meeting Summary Fetching**
+Fetch concise summaries of past meetings, filtered by specific dates. Summaries highlight discussion points, action items, and speaker lists.
 
-###  Running 
+### **Referenced Data Display**
+View data sources referenced by the chatbot in its answers, including meeting transcripts and related documents.
 
-Use the following command to run streamlit app locally using Pinecone index:
+### **Conversation History Integration**
+Explore connections between your queries and those from other users, using past conversations for context-aware insights.
 
-```sh
-streamlit run src/streamlit_app.py
-```
+---
 
-Use the following command to run streamlit app locally using Timescale index:
+## License
 
-```sh
-streamlit run src/timescale/streamlit_app_ts.py
-```
+This project is licensed under the GNU General Public License (GPL). 
+
+TL;DR
+1. Anyone can copy, modify and distribute this software.
+2. You have to include the license and copyright notice with each and every distribution.
+3. You can use this software privately.
+4. You can use this software for commercial purposes.
+5. If you dare build your business solely from this code, you risk open-sourcing the whole code base.
+6. If you modify it, you have to indicate changes made to the code.
+7. Any modifications of this code base MUST be distributed with the same license, GPLv3.
+8. This software is provided without warranty.
+9. The software author or license can not be held liable for any damages inflicted by the software.
+- Access the full license text in the [LICENSE.txt](./LICENSE.txt) file.
+
+For more details on the terms of this license, please visit [GNU Licenses](https://www.gnu.org/licenses/gpl-3.0.en.html).

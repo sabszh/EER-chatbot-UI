@@ -107,7 +107,7 @@ def query_meeting_summary(datestamp):
 
 st.title(f"🤖 EER Transcript Explorer Bot")
 st.write("""
-    This is a chatbot with access to meeting transcripts from the EER project (May 2021 - January 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
+    This is a chatbot with access to meeting transcripts from the EER project (May 2021 - December 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
 """)
 
 with st.expander("Fetch a meeting summary", expanded=False):
@@ -175,7 +175,7 @@ with chat_container:
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
                             if past_chat_context:
-                                with st.expander("Data from previous conversations with this LLM", expanded=False):
+                                with st.expander("Past conversations with this LLM related to this topic", expanded=False):
                                     for idx, doc in enumerate(past_chat_context, 1):
                                         with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
                                             st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
