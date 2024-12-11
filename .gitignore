@@ -4,4 +4,5 @@ data
 test
 src/streamlit_rag_chatbot/__pycache__
 eerbot.zip
+boteer.zip
 chatbot_log.log

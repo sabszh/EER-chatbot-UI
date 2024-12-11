@@ -211,7 +211,7 @@ class chatbot:
             session_id (str): The unique session identifier.
         """
         try:
-            pinecone_instance_chat = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=self.embeddings)
+            pinecone_instance_chat = pc(api_key=os.getenv('PINECONE_API_KEY_2'), embeddings=self.embeddings)
             index_name = "eer-interaction-data"
             environment = "gcp-starter"
             index = pinecone_instance_chat.Index(index_name, environment=environment)
