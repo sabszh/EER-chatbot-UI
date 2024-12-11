@@ -1,0 +1,1002 @@
+2024-12-10 10:52:59,382 - Use pytorch device_name: cpu
+2024-12-10 10:52:59,382 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:53:05,262 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:53:05,264 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:53:05,527 - Installing plugin inference into Pinecone
+2024-12-10 10:53:05,770 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:53:45,914 - User name set to: Sabrina
+2024-12-10 10:53:46,034 - Use pytorch device_name: cpu
+2024-12-10 10:53:46,034 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:53:49,532 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:53:49,534 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:53:49,534 - Installing plugin inference into Pinecone
+2024-12-10 10:53:49,665 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:54:02,053 - Use pytorch device_name: cpu
+2024-12-10 10:54:02,054 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:54:04,364 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:54:04,364 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:54:04,364 - Installing plugin inference into Pinecone
+2024-12-10 10:54:04,511 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:56:34,732 - Use pytorch device_name: cpu
+2024-12-10 10:56:34,732 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:56:34,732 - Use pytorch device_name: cpu
+2024-12-10 10:56:34,732 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:56:37,515 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:56:37,517 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:56:37,549 - Installing plugin inference into Pinecone
+2024-12-10 10:56:37,716 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:56:39,367 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:56:39,369 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:56:39,370 - Installing plugin inference into Pinecone
+2024-12-10 10:57:01,763 - User name set to: Sabrina
+2024-12-10 10:57:01,869 - Use pytorch device_name: cpu
+2024-12-10 10:57:01,870 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:57:04,702 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:57:04,703 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:57:04,704 - Installing plugin inference into Pinecone
+2024-12-10 10:57:04,846 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:58:54,645 - Use pytorch device_name: cpu
+2024-12-10 10:58:54,645 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:58:57,968 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:58:57,970 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:58:57,986 - Installing plugin inference into Pinecone
+2024-12-10 10:58:58,138 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 10:59:01,550 - User name set to: Sabrina
+2024-12-10 10:59:01,645 - Use pytorch device_name: cpu
+2024-12-10 10:59:01,646 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 10:59:03,746 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 10:59:03,749 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 10:59:03,750 - Installing plugin inference into Pinecone
+2024-12-10 10:59:03,916 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:00:23,200 - Use pytorch device_name: cpu
+2024-12-10 11:00:23,201 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:00:23,203 - Use pytorch device_name: cpu
+2024-12-10 11:00:23,203 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:00:25,603 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:25,604 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:25,621 - Installing plugin inference into Pinecone
+2024-12-10 11:00:25,955 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:25,956 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:25,956 - Installing plugin inference into Pinecone
+2024-12-10 11:00:26,028 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:26,029 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:26,029 - Installing plugin inference into Pinecone
+2024-12-10 11:00:26,349 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:26,350 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:26,350 - Installing plugin inference into Pinecone
+2024-12-10 11:00:27,016 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:27,017 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:27,423 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:27,424 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:35,206 - User name set to: sabrina
+2024-12-10 11:00:35,308 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:35,310 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:35,310 - Installing plugin inference into Pinecone
+2024-12-10 11:00:35,311 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:35,312 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:57,498 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:57,499 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:00:57,500 - Installing plugin inference into Pinecone
+2024-12-10 11:00:57,501 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:00:57,502 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:02:10,517 - Use pytorch device_name: cpu
+2024-12-10 11:02:10,518 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:02:10,519 - Use pytorch device_name: cpu
+2024-12-10 11:02:10,520 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:02:10,520 - Use pytorch device_name: cpu
+2024-12-10 11:02:10,520 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:02:12,955 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:02:12,957 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:02:12,981 - Installing plugin inference into Pinecone
+2024-12-10 11:02:13,159 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:02:13,431 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:02:13,432 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:02:13,433 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:02:13,433 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:02:13,433 - Installing plugin inference into Pinecone
+2024-12-10 11:02:13,434 - Installing plugin inference into Pinecone
+2024-12-10 11:02:13,572 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:02:13,572 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:03:52,453 - Use pytorch device_name: cpu
+2024-12-10 11:03:52,454 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:03:52,455 - Use pytorch device_name: cpu
+2024-12-10 11:03:52,455 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:03:52,457 - Use pytorch device_name: cpu
+2024-12-10 11:03:52,457 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:03:52,458 - Use pytorch device_name: cpu
+2024-12-10 11:03:52,458 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:03:55,729 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:03:55,732 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:03:55,754 - Installing plugin inference into Pinecone
+2024-12-10 11:03:55,950 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:03:55,951 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:03:55,952 - Installing plugin inference into Pinecone
+2024-12-10 11:03:55,970 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:03:56,186 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:03:58,128 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:03:58,129 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:03:58,130 - Installing plugin inference into Pinecone
+2024-12-10 11:03:58,272 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:03:59,052 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:03:59,052 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:03:59,053 - Installing plugin inference into Pinecone
+2024-12-10 11:03:59,188 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:04:51,520 - Use pytorch device_name: cpu
+2024-12-10 11:04:51,520 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:04:51,521 - Use pytorch device_name: cpu
+2024-12-10 11:04:51,522 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:04:51,523 - Use pytorch device_name: cpu
+2024-12-10 11:04:51,523 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:04:51,525 - Use pytorch device_name: cpu
+2024-12-10 11:04:51,526 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:04:51,532 - Use pytorch device_name: cpu
+2024-12-10 11:04:51,533 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:04:54,873 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:04:54,875 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:04:54,885 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:04:54,886 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:04:54,941 - Installing plugin inference into Pinecone
+2024-12-10 11:04:54,942 - Installing plugin inference into Pinecone
+2024-12-10 11:04:55,142 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:04:55,173 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:04:56,023 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:04:56,024 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:04:56,026 - Installing plugin inference into Pinecone
+2024-12-10 11:04:56,166 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:04:57,650 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:04:57,651 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:04:57,652 - Installing plugin inference into Pinecone
+2024-12-10 11:04:57,727 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:04:57,728 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:04:57,728 - Installing plugin inference into Pinecone
+2024-12-10 11:04:57,798 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:04:57,901 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:05:55,068 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,069 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:55,072 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,072 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:55,076 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,076 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:55,080 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,081 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:55,087 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,087 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:55,089 - Use pytorch device_name: cpu
+2024-12-10 11:05:55,089 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:05:58,966 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:05:58,967 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:05:59,019 - Installing plugin inference into Pinecone
+2024-12-10 11:05:59,048 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:05:59,049 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:05:59,049 - Installing plugin inference into Pinecone
+2024-12-10 11:05:59,106 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:05:59,107 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:05:59,107 - Installing plugin inference into Pinecone
+2024-12-10 11:05:59,201 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:05:59,209 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:05:59,268 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:05:59,513 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:05:59,515 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:05:59,516 - Installing plugin inference into Pinecone
+2024-12-10 11:05:59,675 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:06:01,471 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:06:01,473 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:06:01,473 - Installing plugin inference into Pinecone
+2024-12-10 11:06:01,617 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:06:01,682 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:06:01,682 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:06:01,683 - Installing plugin inference into Pinecone
+2024-12-10 11:06:01,869 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:06:05,300 - User name set to: Sabrina
+2024-12-10 11:06:05,396 - Use pytorch device_name: cpu
+2024-12-10 11:06:05,396 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:06:08,766 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:06:08,768 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:06:08,769 - Installing plugin inference into Pinecone
+2024-12-10 11:06:08,913 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:06:11,998 - Use pytorch device_name: cpu
+2024-12-10 11:06:11,999 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:06:14,652 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:06:14,653 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:06:14,653 - Installing plugin inference into Pinecone
+2024-12-10 11:06:14,844 - Error initializing bot: 2 validation errors for HuggingFaceEndpoint
+model
+  none is not an allowed value (type=type_error.none.not_allowed)
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:07:40,713 - Use pytorch device_name: cpu
+2024-12-10 11:07:40,714 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:07:40,716 - Use pytorch device_name: cpu
+2024-12-10 11:07:40,716 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:07:43,522 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:07:43,524 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:07:43,543 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:07:43,544 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:07:43,556 - Installing plugin inference into Pinecone
+2024-12-10 11:07:43,556 - Installing plugin inference into Pinecone
+2024-12-10 11:07:43,806 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:08:05,291 - User name set to: sabrina
+2024-12-10 11:08:05,418 - Use pytorch device_name: cpu
+2024-12-10 11:08:05,418 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:08:08,481 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:08:08,481 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:08:08,481 - Installing plugin inference into Pinecone
+2024-12-10 11:08:08,621 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:09:12,143 - Use pytorch device_name: cpu
+2024-12-10 11:09:12,144 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:09:14,841 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:09:14,842 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:09:14,843 - Installing plugin inference into Pinecone
+2024-12-10 11:09:14,992 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:11:13,392 - Use pytorch device_name: cpu
+2024-12-10 11:11:13,393 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:11:13,397 - Use pytorch device_name: cpu
+2024-12-10 11:11:13,397 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:11:16,096 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:11:16,097 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:11:16,107 - Installing plugin inference into Pinecone
+2024-12-10 11:11:16,132 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:11:16,133 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:11:16,133 - Installing plugin inference into Pinecone
+2024-12-10 11:11:16,254 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:11:16,283 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 11:11:21,709 - User name set to: Sabrina
+2024-12-10 11:11:21,800 - Use pytorch device_name: cpu
+2024-12-10 11:11:21,800 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 11:11:24,086 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 11:11:24,088 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 11:11:24,088 - Installing plugin inference into Pinecone
+2024-12-10 11:11:24,226 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:09:31,683 - Use pytorch device_name: cpu
+2024-12-10 15:09:31,684 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:09:31,686 - Use pytorch device_name: cpu
+2024-12-10 15:09:31,687 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:09:35,972 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:09:35,974 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:09:36,039 - Installing plugin inference into Pinecone
+2024-12-10 15:09:36,124 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:09:36,126 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:09:36,127 - Installing plugin inference into Pinecone
+2024-12-10 15:09:36,206 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:09:36,251 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:11:39,407 - Use pytorch device_name: cpu
+2024-12-10 15:11:39,407 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:11:41,924 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:11:41,924 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:11:41,924 - Installing plugin inference into Pinecone
+2024-12-10 15:11:42,044 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:20:17,574 - Use pytorch device_name: cpu
+2024-12-10 15:20:17,574 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:20:17,580 - Use pytorch device_name: cpu
+2024-12-10 15:20:17,580 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:20:21,879 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:20:21,881 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:20:21,925 - Installing plugin inference into Pinecone
+2024-12-10 15:20:22,074 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:20:24,564 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:20:24,566 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:20:24,566 - Installing plugin inference into Pinecone
+2024-12-10 15:20:24,693 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:20:26,577 - User name set to: Sabrina
+2024-12-10 15:20:26,681 - Use pytorch device_name: cpu
+2024-12-10 15:20:26,682 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:20:29,352 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:20:29,352 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:20:29,352 - Installing plugin inference into Pinecone
+2024-12-10 15:20:29,477 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:21:45,300 - Use pytorch device_name: cpu
+2024-12-10 15:21:45,301 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:21:45,303 - Use pytorch device_name: cpu
+2024-12-10 15:21:45,304 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:21:45,305 - Use pytorch device_name: cpu
+2024-12-10 15:21:45,306 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:21:47,939 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:21:47,941 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:21:47,974 - Installing plugin inference into Pinecone
+2024-12-10 15:21:48,112 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:21:48,525 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:21:48,526 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:21:48,527 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:21:48,527 - Installing plugin inference into Pinecone
+2024-12-10 15:21:48,527 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:21:48,528 - Installing plugin inference into Pinecone
+2024-12-10 15:21:48,652 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:21:48,652 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:26:11,716 - Use pytorch device_name: cpu
+2024-12-10 15:26:11,716 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:26:11,717 - Use pytorch device_name: cpu
+2024-12-10 15:26:11,718 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:26:11,719 - Use pytorch device_name: cpu
+2024-12-10 15:26:11,720 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:26:11,720 - Use pytorch device_name: cpu
+2024-12-10 15:26:11,720 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:26:18,272 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:26:18,274 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:26:18,966 - Installing plugin inference into Pinecone
+2024-12-10 15:26:19,107 - Error initializing bot: InferenceClient.chat_completion() got an unexpected keyword argument 'top_k'
+2024-12-10 15:26:21,102 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:26:21,104 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:26:21,104 - Installing plugin inference into Pinecone
+2024-12-10 15:26:21,104 - Error initializing bot: InferenceClient.chat_completion() got an unexpected keyword argument 'top_k'
+2024-12-10 15:26:21,104 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:26:21,104 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:26:21,104 - Installing plugin inference into Pinecone
+2024-12-10 15:26:21,114 - Error initializing bot: InferenceClient.chat_completion() got an unexpected keyword argument 'top_k'
+2024-12-10 15:26:21,384 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:26:21,390 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:26:21,390 - Installing plugin inference into Pinecone
+2024-12-10 15:26:21,391 - Error initializing bot: InferenceClient.chat_completion() got an unexpected keyword argument 'top_k'
+2024-12-10 15:27:26,184 - Use pytorch device_name: cpu
+2024-12-10 15:27:26,184 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:27:26,184 - Use pytorch device_name: cpu
+2024-12-10 15:27:26,184 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:27:26,202 - Use pytorch device_name: cpu
+2024-12-10 15:27:26,203 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:27:26,203 - Use pytorch device_name: cpu
+2024-12-10 15:27:26,203 - Use pytorch device_name: cpu
+2024-12-10 15:27:26,203 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:27:26,204 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:27:29,554 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:27:29,564 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:27:29,586 - Installing plugin inference into Pinecone
+2024-12-10 15:27:29,594 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:27:29,608 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:27:29,608 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:27:29,608 - Installing plugin inference into Pinecone
+2024-12-10 15:27:29,612 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:27:32,240 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:27:32,248 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:27:32,248 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:27:32,249 - Installing plugin inference into Pinecone
+2024-12-10 15:27:32,249 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:27:32,251 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:27:32,252 - Installing plugin inference into Pinecone
+2024-12-10 15:27:32,255 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:27:32,512 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:27:32,514 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:27:32,515 - Installing plugin inference into Pinecone
+2024-12-10 15:29:08,259 - Use pytorch device_name: cpu
+2024-12-10 15:29:08,259 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:08,260 - Use pytorch device_name: cpu
+2024-12-10 15:29:08,260 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:08,262 - Use pytorch device_name: cpu
+2024-12-10 15:29:08,262 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:08,264 - Use pytorch device_name: cpu
+2024-12-10 15:29:08,265 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:08,265 - Use pytorch device_name: cpu
+2024-12-10 15:29:08,267 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:10,883 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:10,884 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:10,939 - Installing plugin inference into Pinecone
+2024-12-10 15:29:10,951 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:29:11,195 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:11,203 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:11,203 - Installing plugin inference into Pinecone
+2024-12-10 15:29:11,204 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:29:11,735 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:11,737 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:11,737 - Installing plugin inference into Pinecone
+2024-12-10 15:29:11,737 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:29:13,902 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:13,904 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:13,904 - Installing plugin inference into Pinecone
+2024-12-10 15:29:13,905 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:29:14,024 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:14,026 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:14,028 - Installing plugin inference into Pinecone
+2024-12-10 15:29:14,029 - Error initializing bot: InferenceClient.__init__() got an unexpected keyword argument 'repo_id'
+2024-12-10 15:29:54,518 - Use pytorch device_name: cpu
+2024-12-10 15:29:54,519 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:29:56,537 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:29:56,538 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:29:56,538 - Installing plugin inference into Pinecone
+2024-12-10 15:29:56,761 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:30:13,014 - Use pytorch device_name: cpu
+2024-12-10 15:30:13,014 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:30:13,017 - Use pytorch device_name: cpu
+2024-12-10 15:30:13,018 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:30:13,019 - Use pytorch device_name: cpu
+2024-12-10 15:30:13,020 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:30:15,283 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:30:15,283 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:30:15,303 - Installing plugin inference into Pinecone
+2024-12-10 15:30:15,440 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:30:15,510 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:30:15,510 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:30:15,513 - Installing plugin inference into Pinecone
+2024-12-10 15:30:15,642 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:30:16,520 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:30:16,525 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:30:16,525 - Installing plugin inference into Pinecone
+2024-12-10 15:30:16,650 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:38:25,452 - Use pytorch device_name: cpu
+2024-12-10 15:38:25,452 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:38:25,454 - Use pytorch device_name: cpu
+2024-12-10 15:38:25,454 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:38:27,878 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:38:27,880 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:38:27,919 - Installing plugin inference into Pinecone
+2024-12-10 15:38:27,971 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:38:27,972 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:38:27,972 - Installing plugin inference into Pinecone
+2024-12-10 15:38:28,074 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:38:28,098 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:40:51,679 - Use pytorch device_name: cpu
+2024-12-10 15:40:51,680 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:40:51,683 - Use pytorch device_name: cpu
+2024-12-10 15:40:51,683 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:40:51,685 - Use pytorch device_name: cpu
+2024-12-10 15:40:51,685 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:40:54,013 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:40:54,014 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:40:54,029 - Installing plugin inference into Pinecone
+2024-12-10 15:40:54,099 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:40:54,099 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:40:54,100 - Installing plugin inference into Pinecone
+2024-12-10 15:40:54,164 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:40:54,227 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:40:55,432 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:40:55,436 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:40:55,436 - Installing plugin inference into Pinecone
+2024-12-10 15:40:55,571 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:41:01,479 - Use pytorch device_name: cpu
+2024-12-10 15:41:01,480 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:41:03,539 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:41:03,541 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:41:03,541 - Installing plugin inference into Pinecone
+2024-12-10 15:41:31,545 - Use pytorch device_name: cpu
+2024-12-10 15:41:31,546 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:41:31,548 - Use pytorch device_name: cpu
+2024-12-10 15:41:31,548 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:41:33,655 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:41:33,657 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:41:33,674 - Installing plugin inference into Pinecone
+2024-12-10 15:41:33,807 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:41:34,851 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:41:34,853 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:41:34,855 - Installing plugin inference into Pinecone
+2024-12-10 15:41:34,985 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:42:16,490 - Use pytorch device_name: cpu
+2024-12-10 15:42:16,490 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:42:16,495 - Use pytorch device_name: cpu
+2024-12-10 15:42:16,495 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:42:16,495 - Use pytorch device_name: cpu
+2024-12-10 15:42:16,495 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:42:18,703 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:42:18,704 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:42:18,717 - Installing plugin inference into Pinecone
+2024-12-10 15:42:18,848 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:42:20,291 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:42:20,295 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:42:20,296 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:42:20,296 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:42:20,297 - Installing plugin inference into Pinecone
+2024-12-10 15:42:20,297 - Installing plugin inference into Pinecone
+2024-12-10 15:42:20,436 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:42:20,437 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:52:28,490 - Use pytorch device_name: cpu
+2024-12-10 15:52:28,490 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:28,495 - Use pytorch device_name: cpu
+2024-12-10 15:52:28,495 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:28,499 - Use pytorch device_name: cpu
+2024-12-10 15:52:28,500 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:28,506 - Use pytorch device_name: cpu
+2024-12-10 15:52:28,507 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:32,117 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:52:32,124 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:52:32,129 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:52:32,131 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:52:32,134 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:52:32,136 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:52:32,180 - Installing plugin inference into Pinecone
+2024-12-10 15:52:32,180 - Installing plugin inference into Pinecone
+2024-12-10 15:52:32,180 - Installing plugin inference into Pinecone
+2024-12-10 15:52:32,266 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:52:32,268 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:52:32,268 - Installing plugin inference into Pinecone
+2024-12-10 15:52:32,346 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:52:32,358 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:52:32,377 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:52:32,399 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:52:57,791 - Use pytorch device_name: cpu
+2024-12-10 15:52:57,791 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:57,796 - Use pytorch device_name: cpu
+2024-12-10 15:52:57,796 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:57,796 - Use pytorch device_name: cpu
+2024-12-10 15:52:57,796 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:57,803 - Use pytorch device_name: cpu
+2024-12-10 15:52:57,807 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:52:57,813 - Use pytorch device_name: cpu
+2024-12-10 15:52:57,813 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:53:00,285 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:53:00,287 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:53:00,303 - Installing plugin inference into Pinecone
+2024-12-10 15:53:00,311 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:53:00,313 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:53:00,314 - Installing plugin inference into Pinecone
+2024-12-10 15:53:00,442 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:53:00,445 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:53:00,667 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:53:00,670 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:53:00,670 - Installing plugin inference into Pinecone
+2024-12-10 15:53:00,797 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:53:02,342 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:53:02,344 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:53:02,345 - Installing plugin inference into Pinecone
+2024-12-10 15:53:02,385 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:53:02,386 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:53:02,386 - Installing plugin inference into Pinecone
+2024-12-10 15:53:02,472 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:53:02,517 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:29,041 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,041 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:29,046 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,046 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:29,050 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,050 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:29,052 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,053 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:29,058 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,060 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:29,063 - Use pytorch device_name: cpu
+2024-12-10 15:56:29,063 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 15:56:32,904 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:32,905 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:32,934 - Installing plugin inference into Pinecone
+2024-12-10 15:56:33,107 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:40,107 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:40,124 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:40,130 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:40,134 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:40,135 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:40,135 - Installing plugin inference into Pinecone
+2024-12-10 15:56:40,136 - Installing plugin inference into Pinecone
+2024-12-10 15:56:40,178 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:40,193 - Installing plugin inference into Pinecone
+2024-12-10 15:56:40,204 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:40,206 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:40,206 - Installing plugin inference into Pinecone
+2024-12-10 15:56:40,347 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:40,347 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:40,347 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:40,348 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 15:56:41,992 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 15:56:41,995 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 15:56:41,995 - Installing plugin inference into Pinecone
+2024-12-10 15:56:42,125 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:01:03,226 - Use pytorch device_name: cpu
+2024-12-10 16:01:03,228 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:01:03,230 - Use pytorch device_name: cpu
+2024-12-10 16:01:03,230 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:01:03,854 - Use pytorch device_name: cpu
+2024-12-10 16:01:03,855 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:01:05,967 - Use pytorch device_name: cpu
+2024-12-10 16:01:05,968 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:01:06,498 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:01:06,500 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:01:06,562 - Installing plugin inference into Pinecone
+2024-12-10 16:01:06,738 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:01:06,740 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:01:06,740 - Installing plugin inference into Pinecone
+2024-12-10 16:01:06,747 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:01:07,026 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:01:09,326 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:01:09,329 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:01:09,329 - Installing plugin inference into Pinecone
+2024-12-10 16:01:09,456 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:01:09,839 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:01:09,841 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:01:09,841 - Installing plugin inference into Pinecone
+2024-12-10 16:01:09,982 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:04:21,270 - Use pytorch device_name: cpu
+2024-12-10 16:04:21,270 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:04:21,273 - Use pytorch device_name: cpu
+2024-12-10 16:04:21,273 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:04:21,275 - Use pytorch device_name: cpu
+2024-12-10 16:04:21,275 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:04:21,276 - Use pytorch device_name: cpu
+2024-12-10 16:04:21,277 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:04:21,285 - Use pytorch device_name: cpu
+2024-12-10 16:04:21,286 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:04:23,665 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:04:23,666 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:04:23,681 - Installing plugin inference into Pinecone
+2024-12-10 16:04:23,779 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:04:23,779 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:04:23,780 - Installing plugin inference into Pinecone
+2024-12-10 16:04:23,806 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:04:23,909 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:04:25,930 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:04:25,931 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:04:25,932 - Installing plugin inference into Pinecone
+2024-12-10 16:04:26,070 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:04:26,318 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:04:26,319 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:04:26,319 - Installing plugin inference into Pinecone
+2024-12-10 16:04:26,446 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:04:26,507 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:04:26,508 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:04:26,508 - Installing plugin inference into Pinecone
+2024-12-10 16:04:26,660 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:08:50,124 - Use pytorch device_name: cpu
+2024-12-10 16:08:50,125 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:08:50,127 - Use pytorch device_name: cpu
+2024-12-10 16:08:50,127 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:08:50,129 - Use pytorch device_name: cpu
+2024-12-10 16:08:50,129 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:08:52,545 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:08:52,546 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:08:52,558 - Installing plugin inference into Pinecone
+2024-12-10 16:08:52,564 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:08:52,565 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:08:52,566 - Installing plugin inference into Pinecone
+2024-12-10 16:08:52,838 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:08:53,168 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:08:53,170 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:08:53,170 - Installing plugin inference into Pinecone
+2024-12-10 16:08:53,295 - Error initializing bot: 1 validation error for HuggingFaceEndpoint
+__root__
+  Could not authenticate with huggingface_hub. Please check your API token. (type=value_error)
+2024-12-10 16:10:17,588 - Use pytorch device_name: cpu
+2024-12-10 16:10:17,588 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:10:19,648 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:10:19,650 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:10:19,688 - Installing plugin inference into Pinecone
+2024-12-10 16:10:20,039 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:10:20,049 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:10:20,050 - Installing plugin inference into Pinecone
+2024-12-10 16:10:22,185 - Use pytorch device_name: cpu
+2024-12-10 16:10:22,185 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:10:24,195 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:10:24,196 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:10:24,196 - Installing plugin inference into Pinecone
+2024-12-10 16:10:24,449 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:10:24,450 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:10:24,451 - Installing plugin inference into Pinecone
+2024-12-10 16:12:12,925 - Use pytorch device_name: cpu
+2024-12-10 16:12:12,928 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:12:12,928 - Use pytorch device_name: cpu
+2024-12-10 16:12:12,928 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:12:13,827 - Use pytorch device_name: cpu
+2024-12-10 16:12:13,828 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:12:15,524 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:15,525 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:15,552 - Installing plugin inference into Pinecone
+2024-12-10 16:12:15,787 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:15,787 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:15,787 - Installing plugin inference into Pinecone
+2024-12-10 16:12:15,814 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:15,815 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:15,816 - Installing plugin inference into Pinecone
+2024-12-10 16:12:16,029 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:16,032 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:16,032 - Installing plugin inference into Pinecone
+2024-12-10 16:12:17,052 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:17,055 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:17,055 - Installing plugin inference into Pinecone
+2024-12-10 16:12:17,302 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:17,303 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:17,303 - Installing plugin inference into Pinecone
+2024-12-10 16:12:20,247 - User name set to: Sabrina
+2024-12-10 16:12:20,342 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:20,344 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:20,344 - Installing plugin inference into Pinecone
+2024-12-10 16:12:25,648 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:12:25,649 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:12:25,649 - Installing plugin inference into Pinecone
+2024-12-10 16:13:35,191 - Use pytorch device_name: cpu
+2024-12-10 16:13:35,192 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:13:35,194 - Use pytorch device_name: cpu
+2024-12-10 16:13:35,195 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:13:35,195 - Use pytorch device_name: cpu
+2024-12-10 16:13:35,197 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:13:35,206 - Use pytorch device_name: cpu
+2024-12-10 16:13:35,206 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:13:37,499 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:37,500 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:37,524 - Installing plugin inference into Pinecone
+2024-12-10 16:13:37,842 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:37,843 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:37,843 - Installing plugin inference into Pinecone
+2024-12-10 16:13:37,933 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:37,934 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:37,934 - Installing plugin inference into Pinecone
+2024-12-10 16:13:38,038 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:38,040 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:38,040 - Installing plugin inference into Pinecone
+2024-12-10 16:13:38,189 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:38,190 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:38,190 - Installing plugin inference into Pinecone
+2024-12-10 16:13:38,235 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:38,236 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:38,238 - Installing plugin inference into Pinecone
+2024-12-10 16:13:38,325 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:38,330 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:38,331 - Installing plugin inference into Pinecone
+2024-12-10 16:13:38,613 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:38,615 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:38,615 - Installing plugin inference into Pinecone
+2024-12-10 16:13:41,788 - User name set to: Sabrina
+2024-12-10 16:13:41,894 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:13:41,896 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:13:41,897 - Installing plugin inference into Pinecone
+2024-12-10 16:14:45,649 - Use pytorch device_name: cpu
+2024-12-10 16:14:45,650 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:14:45,655 - Use pytorch device_name: cpu
+2024-12-10 16:14:45,656 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:14:45,657 - Use pytorch device_name: cpu
+2024-12-10 16:14:45,657 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:14:45,660 - Use pytorch device_name: cpu
+2024-12-10 16:14:45,660 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:14:45,664 - Use pytorch device_name: cpu
+2024-12-10 16:14:45,664 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:14:50,718 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:50,720 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:50,720 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:50,723 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:50,726 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:50,726 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:50,726 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:50,727 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:51,128 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,128 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,128 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,128 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,587 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:51,587 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:51,597 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:51,600 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:51,600 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,600 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:51,620 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,625 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:51,625 - Installing plugin inference into Pinecone
+2024-12-10 16:14:51,645 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:51,646 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:51,646 - Installing plugin inference into Pinecone
+2024-12-10 16:14:52,013 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:52,014 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:52,014 - Installing plugin inference into Pinecone
+2024-12-10 16:14:52,268 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:14:52,269 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:14:52,270 - Installing plugin inference into Pinecone
+2024-12-10 16:19:41,216 - Use pytorch device_name: cpu
+2024-12-10 16:19:41,217 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:19:41,218 - Use pytorch device_name: cpu
+2024-12-10 16:19:41,218 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:19:43,903 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:19:43,905 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:19:43,943 - Installing plugin inference into Pinecone
+2024-12-10 16:19:43,963 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:19:43,964 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:19:43,965 - Installing plugin inference into Pinecone
+2024-12-10 16:19:44,213 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:19:44,218 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:19:44,220 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:19:44,221 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:19:44,221 - Installing plugin inference into Pinecone
+2024-12-10 16:19:44,222 - Installing plugin inference into Pinecone
+2024-12-10 16:19:49,979 - User name set to: Sabrina
+2024-12-10 16:19:50,074 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:19:50,075 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:19:50,076 - Installing plugin inference into Pinecone
+2024-12-10 16:20:34,003 - Use pytorch device_name: cpu
+2024-12-10 16:20:34,003 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:20:34,003 - Use pytorch device_name: cpu
+2024-12-10 16:20:34,003 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:20:34,003 - Use pytorch device_name: cpu
+2024-12-10 16:20:34,003 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2024-12-10 16:20:36,302 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:36,302 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:36,317 - Installing plugin inference into Pinecone
+2024-12-10 16:20:36,493 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:36,493 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:36,494 - Installing plugin inference into Pinecone
+2024-12-10 16:20:36,606 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:36,611 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:36,611 - Installing plugin inference into Pinecone
+2024-12-10 16:20:36,751 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:36,752 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:36,753 - Installing plugin inference into Pinecone
+2024-12-10 16:20:36,782 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:36,783 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:36,783 - Installing plugin inference into Pinecone
+2024-12-10 16:20:37,056 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:37,058 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:37,058 - Installing plugin inference into Pinecone
+2024-12-10 16:20:37,418 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:37,421 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:37,423 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:37,427 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:37,571 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:37,573 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:42,171 - User name set to: Sabrina
+2024-12-10 16:20:42,279 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:42,280 - Looking for plugins in pinecone_plugins.inference
+2024-12-10 16:20:42,282 - Installing plugin inference into Pinecone
+2024-12-10 16:20:42,282 - Discovering subpackages in _NamespacePath(['C:\\Users\\szh\\Desktop\\EER\\EER-chatbot-UI\\.venv\\Lib\\site-packages\\pinecone_plugins'])
+2024-12-10 16:20:42,282 - Looking for plugins in pinecone_plugins.inference

@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream:src/main.py
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
+=======
+import os
+from datetime import datetime, timezone
+import logging
+from tenacity import retry, stop_after_attempt, wait_fixed
+from dotenv import load_dotenv
+from langchain_huggingface import HuggingFaceEmbeddings, HuggingFaceEndpoint as HuggingFaceHub
+>>>>>>> Stashed changes:src/streamlit_rag_chatbot/main.py
 from langchain_community.vectorstores.pinecone import Pinecone
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
@@ -14,6 +23,7 @@ from pinecone import Pinecone as pc
 from pinecone import PodSpec
 from pinecone import ServerlessSpec
 
+<<<<<<< Updated upstream:src/main.py
 load_dotenv()
 
 class ChatBot():
@@ -33,6 +43,39 @@ class ChatBot():
         #    print("Using existing Pinecone index")
     
         self.docsearch = Pinecone.from_existing_index(self.index_name, self.embeddings)
+=======
+# Set up logging for the chatbot
+logger = logging.getLogger(__name__)
+
+# The chatbot class definition with methods for RAG-based document retrieval and LLM-based conversation generation
+class chatbot:
+    """
+    A chatbot class that interacts with the Experimenting Experiencing Reflecting (EER) project data, including document retrieval, LLM integration, and storing chat history.
+
+    Attributes:
+        temperature (float): The temperature parameter for the language model.
+        user_name (str): The name of the user interacting with the chatbot.
+        session_id (str): A unique identifier for the user's session.
+        embeddings (HuggingFaceEmbeddings): Embedding generator for document vectors.
+        llm (HuggingFaceHub): HuggingFace language model endpoint.
+    """
+
+    def __init__(self, temperature=0.8, prompt_sourcedata=None, prompt_conv=None, user_name=None, session_id=None):
+        """
+        Initializes the chatbot instance with parameters and sets up embeddings and LLM.
+
+        Args:
+            temperature (float, optional): Temperature for controlling randomness in LLM outputs. Defaults to 0.8.
+            prompt_sourcedata (str, optional): Prompt template for source data queries.
+            prompt_conv (str, optional): Prompt template for conversational context.
+            user_name (str, optional): Name of the user.
+            session_id (str, optional): Unique session identifier.
+        """
+        load_dotenv()
+        self.embeddings = HuggingFaceEmbeddings()
+        self.index_name = "eer-transcripts-pdfs"
+        self.pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY_2'), embeddings=self.embeddings)
+>>>>>>> Stashed changes:src/streamlit_rag_chatbot/main.py
 
         self.template = custom_template if custom_template else self.default_template()
         self.temperature = temperature
@@ -74,6 +117,34 @@ class ChatBot():
         Answer: 
         """
         
+<<<<<<< Updated upstream:src/main.py
 if __name__ == "__main__":
     ChatBot(repo_id="mistralai/Mistral-7B-Instruct-v0.2")
     print("Chatbot initialized...")
+=======
+    @staticmethod
+    def query_summaries(timestamp):
+        # Set up pinecone client
+        pineclient = pinecone.Pinecone(api_key=os.environ.get("PINECONE_API_KEY_2"))
+        
+        # Connect to the index
+        index_name = "eer-meetings-summaries"
+        index = pineclient.Index(index_name)
+        
+        # Example vector query (should be replaced with actual vector for filtering)
+        query_vector = [1] * 768  # Replace with meaningful vector logic
+        
+        # Query the index
+        results = index.query(
+            vector=query_vector,
+            top_k=100,
+            include_metadata=True
+        )
+        
+        results_dict = results.to_dict()
+        
+        for match in results_dict["matches"]:
+            if match["metadata"]["date"] == timestamp:
+                return match["metadata"]
+        return "No match found"
+>>>>>>> Stashed changes:src/streamlit_rag_chatbot/main.py

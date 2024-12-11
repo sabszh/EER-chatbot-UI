@@ -19,7 +19,7 @@ RUN pip install --upgrade pip \
 COPY . /EER-chatbot-UI
 
 # Set the entry point for streamlit
-ENTRYPOINT ["streamlit", "run", "src/streamlit_app.py", \
+ENTRYPOINT ["streamlit", "run", "src/streamlit_rag_chatbot/streamlit_app.py", \
             "--server.port=80", \
             "--server.headless=true", \
             "--server.address=0.0.0.0", \
