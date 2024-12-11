@@ -28,6 +28,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot designed 
 - **Conversation History**: References from past chatbot interactions.
 - **LLM-Powered Summaries**: Uses a Large Language Model (LLM) to generate summaries of transcripts.
 
+For a full code walkthrough, check the [src\RAG_tutorial.ipynb](https://github.com/sabszh/EER-chatbot-UI/blob/main/src/RAG_tutorial.ipynb).
 ---
 
 ## File Structure
