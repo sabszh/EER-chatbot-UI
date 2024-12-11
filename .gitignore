@@ -1,30 +1,7 @@
-data/pdf_transcripts
-data/EER-site-pages-pdf
-data/reformatted_transcripts copy
-data/EER-site-pages-pdf copy
-data/reformatted_transcripts
-data/raw_transcripts
 .env
 .venv
-<<<<<<< Updated upstream
-src/test.ipynb
-src/__pycache__
-requirements_ts.txt
-src/test_2.ipynb
-src/test_timescale.ipynb
-src/test_1.ipynb
-src/test_3.ipynb
-src/test_4.ipynb
-src/__pycache__
-=======
-requirements_ts.txt
+data
 test
 src/streamlit_rag_chatbot/__pycache__
-src/streamlit_rag_chatbot/.env
+eerbot.zip
 chatbot_log.log
-boteer.zip
-transcript_summary.json
-src-2
-chatbot_log.log
-data
->>>>>>> Stashed changes
