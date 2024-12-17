@@ -46,7 +46,7 @@ Project.
 │    ├── streamlit_rag_chatbot      # Directory for TimescaleDB integration
 │    │    ├── main.py               # Core chatbot pipeline
 │    │    └── streamlit_app.py      # Streamlit app for the chatbot  
-│    └── upserting_transcripts      # Directory for managing TimescaleDB integration
+│    └── upserting_transcripts      # Scripts for upserting transcripts to database
 │         ├── a2t.py                # Incomplete script for the pipeline; currently focuses on adding transcripts to Pinecone
 │         └── streamlit_a2t.py      # Streamlit app interface for managing the pipeline
 ├── .env                            # Environment variables (API keys for HuggingFace and Pinecone)
@@ -77,7 +77,7 @@ Project.
 
 ### Prerequisites
 
-- Python 3.x.x
+- Python 3.11.9
 - API keys for:
   - HuggingFace
   - Pinecone

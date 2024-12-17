@@ -38,7 +38,7 @@ class chatbot:
         load_dotenv()
         self.embeddings = HuggingFaceEmbeddings()
         self.index_name = "eer-transcripts-pdfs"
-        self.pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY_2'), embeddings=self.embeddings)
+        self.pinecone_instance = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=self.embeddings)
 
         # Self-assign parameters
         self.user_name = user_name
@@ -211,7 +211,7 @@ class chatbot:
             session_id (str): The unique session identifier.
         """
         try:
-            pinecone_instance_chat = pc(api_key=os.getenv('PINECONE_API_KEY_2'), embeddings=self.embeddings)
+            pinecone_instance_chat = pc(api_key=os.getenv('PINECONE_API_KEY'), embeddings=self.embeddings)
             index_name = "eer-interaction-data"
             environment = "gcp-starter"
             index = pinecone_instance_chat.Index(index_name, environment=environment)
@@ -286,7 +286,7 @@ class chatbot:
     @staticmethod
     def query_summaries(timestamp):
         # Set up pinecone client
-        pineclient = pinecone.Pinecone(api_key=os.environ.get("PINECONE_API_KEY_2"))
+        pineclient = pinecone.Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
         
         # Connect to the index
         index_name = "eer-meetings-summaries"

@@ -3,6 +3,7 @@
 data
 test
 src/streamlit_rag_chatbot/__pycache__
+src/streamlit_rag_chatbot/migrating.ipynb
 eerbot.zip
 boteer.zip
 chatbot_log.log
