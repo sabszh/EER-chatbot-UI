@@ -175,7 +175,7 @@ with chat_container:
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
                             if past_chat_context:
-                                with st.expander("Past conversations with this LLM related to this topic", expanded=False):
+                                with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
                                     for idx, doc in enumerate(past_chat_context, 1):
                                         with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
                                             st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
@@ -227,7 +227,7 @@ if input_text:
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
                     if past_chat_context:
-                        with st.expander("Data from previous conversations with this LLM", expanded=False):
+                        with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
                             for idx, doc in enumerate(past_chat_context, 1):
                                 with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
                                     st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")

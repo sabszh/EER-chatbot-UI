@@ -92,6 +92,7 @@ class chatbot:
     Here is the last question asked by the user in this session: "{user_name}" asked: {user_input}
     Here is what the LLM you are watching responded with: “{llm_response}”
     Here is relevant data from past conversations that is relevant: {past_chat}
+    Keep in mind that any mentions similar to "micro filament illogical analysis" is a transcribtion error of "microphenomenological analysis" and should be corrected in your response automatically. 
     Here is the chat history for this session, so that your response can be aware of the context: {chat_history}
     Your response: """
 
@@ -270,7 +271,7 @@ class chatbot:
         conversation_response = self.get_llm_response(self.default_prompt_conv(chat_history=chat_history, user_input=user_input, llm_response=sourcedata_response, past_chat=formatted_chat_context, user_name=user_name))
 
         # Step 5: Combine the responses
-        ai_output = f"{sourcedata_response}\n\n{conversation_response}"
+        ai_output = f"{sourcedata_response}\n\n**Related Conversations with this chatbot**\n\n{conversation_response}"
         logger.info(f"Pipeline generated response: {ai_output}")
 
         # Step 6: Upsert to vector store
