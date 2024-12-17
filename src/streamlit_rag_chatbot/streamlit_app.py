@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-st.set_page_config(page_title="EER Transcript Explorer Bot", layout="wide")
+st.set_page_config(page_title="ReLaterBot", layout="wide")
 
 # Initialize chat history if not present
 if "messages" not in st.session_state:
@@ -105,9 +105,9 @@ def query_meeting_summary(datestamp):
 
 
 
-st.title(f"🤖 EER Transcript Explorer Bot")
+st.title(f"🤖 ReLaterBot: EER Transcript Explorer")
 st.write("""
-    This is a chatbot with access to meeting transcripts from the EER project (May 2021 - December 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
+    This is a ReLaterBot, with access to meeting transcripts from the EER project (May 2021 - December 2024) and relevant project documents. The first part of the chatbot's answer to your question refers to the transcripts and other source data. The second part describes connections between your question and questions other people have asked about the data. Perhaps you'll learn that someone else is curious about similar things. Please note that all interactions are stored in a database and will be visible to other users.
 """)
 
 with st.expander("Fetch a meeting summary", expanded=False):

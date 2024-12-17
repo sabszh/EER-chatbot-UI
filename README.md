@@ -1,6 +1,6 @@
 <p align="left">
   <img src="https://static.vecteezy.com/system/resources/previews/024/673/126/original/question-answer-chat-document-paper-with-ai-artificial-intelligence-chat-bot-3d-render-icon-illustration-design-png.png" width="100" />
-  <h1 align="left">EER (Experiencing, Experimenting, Reflecting) Chatbot</h1>
+  <h1 align="left">ReLaterBot: Chatbot as Curator for Collective Reflection </h1>
 </p>
 
 <p align="left">
@@ -23,13 +23,14 @@
 
 ## Overview
 
-This project implements a Retrieval-Augmented Generation (RAG) chatbot designed to assist with questions and exploration of meeting transcripts, summaries, and project data from the [EER](https://www.eer.info/) project. The chatbot integrates:
+This project implements a Retrieval-Augmented Generation (RAG) with a large langauge model, to assist with questions and exploration of meeting transcripts, summaries, and project data.
+
+The code is developed in collaboration and for the [EER](https://www.eer.info/) project. The chatbot integrates:
 - **Document Retrieval**: Retrieves data from meeting transcripts, summaries, and related documents.
 - **Conversation History**: References from past chatbot interactions.
 - **LLM-Powered Summaries**: Uses a Large Language Model (LLM) to generate summaries of transcripts.
 
-
-**For a full code walkthrough, check the [src\RAG_tutorial.ipynb](https://github.com/sabszh/EER-chatbot-UI/blob/main/src/RAG_tutorial.ipynb).**
+**For a full code walkthrough, check the [src\RAG_tutorial.ipynb](src/RAG_tutorial.ipynb).**
 
 ---
 
