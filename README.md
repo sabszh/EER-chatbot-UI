@@ -19,6 +19,8 @@
 	<img src="https://img.shields.io/badge/HuggingFace-F79927.svg?style=flat&logo=HuggingFace&logoColor=white" alt="HuggingFace">
   <img src="https://img.shields.io/badge/Otter-005BBB.svg?style=flat&logo=Python&logoColor=white" alt="Otter">
 </p>
+
+Developers: [Sabrina Zaki Hansen](https://sabszh.github.io/) and [Amos Blanton](https://www.amosamos.net/)
 <hr>
 
 ## Overview

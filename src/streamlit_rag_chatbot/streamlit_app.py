@@ -169,18 +169,16 @@ with chat_container:
                                     st.markdown(f"**Source:** {metadata.get('source', 'Unknown source')}")
                                     st.markdown(f"**Content:** {doc.page_content}")
                                     st.markdown(f"**Page:** {metadata.get('page', 'Unknown page')}")
-                            else:
-                                with st.expander(f"Meeting Transcript {idx} - {metadata.get('speaker_name', 'Unknown Speaker')}"):
-                                    st.markdown(f"**Content:** {doc.page_content}")
-                                    st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
-                                    st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                            if past_chat_context:
-                                with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
-                                    for idx, doc in enumerate(past_chat_context, 1):
-                                        with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
-                                            st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                            st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
-                                            st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
+                            with st.expander(f"Meeting Transcript {idx} - {metadata.get('speaker_name', 'Unknown Speaker')}"):
+                                st.markdown(f"**Content:** {doc.page_content}")
+                                st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
+                                st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
+                    with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
+                        for idx, doc in enumerate(past_chat_context, 1):
+                            with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
+                                st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
+                                st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
 
 input_text = st.chat_input("Type your message here...")
 
@@ -226,13 +224,12 @@ if input_text:
                                     st.markdown(f"**Content:** {doc.page_content}")
                                     st.markdown(f"**Speaker Name:** {metadata.get('speaker_name', 'Unknown Speaker')}")
                                     st.markdown(f"**Date:** {metadata.get('date_time', 'Unknown date')}")
-                    if past_chat_context:
-                        with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
-                            for idx, doc in enumerate(past_chat_context, 1):
-                                with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
-                                    st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
-                                    st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
-                                    st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
+                    with st.expander("Past conversations with this chatbot related to this topic", expanded=False):
+                        for idx, doc in enumerate(past_chat_context, 1):
+                            with st.expander(f"User question: _\"{doc.metadata.get('user_question')}\"_", expanded=False):
+                                st.markdown(f"**User name:** {doc.metadata.get('user_name', 'Unknown user name')}")
+                                st.markdown(f"**AI Response:** {doc.metadata.get('ai_output')}")
+                                st.markdown(f"**Date:** {doc.metadata.get('date', 'Unknown date')}")
     except Exception as e:
         st.error(f"Error generating response: {e}")
         logger.error(f"Error during input handling: {e}")
